@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>CCiudadano Administrador</title>
+    <title></title>
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic|Source+Code+Pro:300,400,700' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="../assets/css/bootstrap.css">
 <link rel="stylesheet" href="../assets/css/jquery.bonsai.css">
@@ -18,15 +18,17 @@
 
       <!-- Name Title -->
 
-      <h1>CCiudadano Administrador</h1>
+      <h1>(unnamed)</h1>
 
       <!-- Type and Stereotype -->
 
       <section style="margin-top: .5em;">
         <span class="alert alert-info">
-          <span class="node-icon staruml-icon icon-UMLClass"></span>
-          UMLClass
+          <span class="node-icon staruml-icon icon-UMLAssociationEnd"></span>
+          UMLAssociationEnd
         </span>
+        
+          <span style="margin-left: 10px" class="alert alert-info">«»</span>
         
       </section>
 
@@ -43,7 +45,13 @@
           <span class="label label-info"><a href='65ff650028c2fc9489ca7891de091611.html'><span class='node-icon staruml-icon icon-UMLModel'></span>Diagramas</a></span>
         
           <span>::</span>
-          <span class="label label-info"><a href='ad4638b07d8c6b79475d904431d962f2.html'><span class='node-icon staruml-icon icon-UMLClass'></span>CCiudadano Administrador</a></span>
+          <span class="label label-info"><a href='757631dab2b94334023cb5d67cfabaca.html'><span class='node-icon staruml-icon icon-UMLClass'></span>CFamiliar Administrador</a></span>
+        
+          <span>::</span>
+          <span class="label label-info"><a href='5c9f0f2833e738c8076a4839a969c82b.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>Crea (CFamiliar Administrador—CCategoria)</a></span>
+        
+          <span>::</span>
+          <span class="label label-info"><a href='b49aeb13ab2526dd925f9c9fa7ee5dc0.html'><span class='node-icon staruml-icon icon-UMLAssociationEnd'></span>(AssociationEnd)</a></span>
         
       </section>
 
@@ -77,35 +85,6 @@
       
 
       <!-- Classifier -->
-
-      
-        
-        
-<section class="element-list">
-    <h3>Generalized Elements</h3>
-    <ul class="nav nav-list">
-        
-        <li><a href='39ec7e15acc52ae1164de3a8254f06ea.html'><span class='node-icon staruml-icon icon-UMLClass'></span>CCiudadano</a></li>
-        
-    </ul>
-</section>
-
-
-
-        
-        
-
-
-        
-        
-
-
-        
-        
-
-
-        
-        
 
       
 
@@ -241,7 +220,7 @@
     
     <tr>
         <td>name</td>
-        <td>CCiudadano Administrador</td>
+        <td></td>
     </tr>
     
     
@@ -255,8 +234,17 @@
     
     
     <tr>
+        <td>reference</td>
+        <td><a href='9d1452a6125670fdbdede717c2e1af1c.html'><span class='node-icon staruml-icon icon-UMLClass'></span>CCategoria</a></td>
+    </tr>
+    
+    
+    
+    
+    
+    <tr>
         <td>stereotype</td>
-        <td><span class='label label-info'>null</span></td>
+        <td></td>
     </tr>
     
     
@@ -272,18 +260,44 @@
     
     
     
-    
-    
-    
-    
-    
+    <tr>
+        <td>navigable</td>
+        <td><span class='label label-info'>true</span></td>
+    </tr>
     
     
     
     
     
     <tr>
-        <td>isAbstract</td>
+        <td>aggregation</td>
+        <td>none</td>
+    </tr>
+    
+    
+    
+    
+    
+    <tr>
+        <td>multiplicity</td>
+        <td>0..*</td>
+    </tr>
+    
+    
+    
+    
+    
+    <tr>
+        <td>defaultValue</td>
+        <td></td>
+    </tr>
+    
+    
+    
+    
+    
+    <tr>
+        <td>isReadOnly</td>
         <td><span class='label label-info'>false</span></td>
     </tr>
     
@@ -292,7 +306,7 @@
     
     
     <tr>
-        <td>isFinalSpecialization</td>
+        <td>isOrdered</td>
         <td><span class='label label-info'>false</span></td>
     </tr>
     
@@ -301,7 +315,7 @@
     
     
     <tr>
-        <td>isLeaf</td>
+        <td>isUnique</td>
         <td><span class='label label-info'>false</span></td>
     </tr>
     
@@ -310,8 +324,28 @@
     
     
     <tr>
-        <td>isActive</td>
+        <td>isDerived</td>
         <td><span class='label label-info'>false</span></td>
+    </tr>
+    
+    
+    
+    
+    
+    <tr>
+        <td>isID</td>
+        <td><span class='label label-info'>false</span></td>
+    </tr>
+    
+    
+    
+    
+    
+    <tr>
+        <td>qualifiers</td>
+        <td>
+            
+        </td>
     </tr>
     
     
@@ -327,55 +361,17 @@
       <!-- Constraints, Dependencies, Dependants -->
 
       
-        
-        
-
-
-        
-        
-
-
-        
-        
-
-      
 
       <!-- Relationships -->
 
       
       
-<section class="element-list">
-    <h3>Relationships</h3>
-    <ul class="nav nav-list">
-        
-        <li><a href='a75c9dee8ab07abd89c90757143f4973.html'><span class='node-icon staruml-icon icon-UMLGeneralization'></span>(CCiudadano Administrador→CCiudadano)</a></li>
-        
-        <li><a href='b39a06fd89690ce23d81cb942cb4e96a.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>Pertenece (CCiudadano Administrador—CComunidad)</a></li>
-        
-        <li><a href='4eda9358f69a71e6f02154269107a828.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>Crea (CCiudadano Administrador—CCategoria)</a></li>
-        
-    </ul>
-</section>
-
 
 
       <!-- Owned Elements -->
 
       
       
-<section class="element-list">
-    <h3>Owned Elements</h3>
-    <ul class="nav nav-list">
-        
-        <li><a href='a75c9dee8ab07abd89c90757143f4973.html'><span class='node-icon staruml-icon icon-UMLGeneralization'></span>(CCiudadano Administrador→CCiudadano)</a></li>
-        
-        <li><a href='b39a06fd89690ce23d81cb942cb4e96a.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>Pertenece (CCiudadano Administrador—CComunidad)</a></li>
-        
-        <li><a href='4eda9358f69a71e6f02154269107a828.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>Crea (CCiudadano Administrador—CCategoria)</a></li>
-        
-    </ul>
-</section>
-
 
 
     </div>
