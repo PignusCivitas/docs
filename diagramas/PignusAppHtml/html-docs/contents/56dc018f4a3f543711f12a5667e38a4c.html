@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Listar Objetos Perdidos</title>
+    <title>CCommunity</title>
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic|Source+Code+Pro:300,400,700' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="../assets/css/bootstrap.css">
 <link rel="stylesheet" href="../assets/css/jquery.bonsai.css">
@@ -18,14 +18,14 @@
 
       <!-- Name Title -->
 
-      <h1>Listar Objetos Perdidos</h1>
+      <h1>CCommunity</h1>
 
       <!-- Type and Stereotype -->
 
       <section style="margin-top: .5em;">
         <span class="alert alert-info">
-          <span class="node-icon staruml-icon icon-UMLUseCase"></span>
-          UMLUseCase
+          <span class="node-icon staruml-icon icon-UMLClass"></span>
+          UMLClass
         </span>
         
       </section>
@@ -43,7 +43,7 @@
           <span class="label label-info"><a href='594af663de577680f35b13183109d675.html'><span class='node-icon staruml-icon icon-UMLModel'></span>Model</a></span>
         
           <span>::</span>
-          <span class="label label-info"><a href='b4159c50273192f6a2f27a7fa025064e.html'><span class='node-icon staruml-icon icon-UMLUseCase'></span>Listar Objetos Perdidos</a></span>
+          <span class="label label-info"><a href='56dc018f4a3f543711f12a5667e38a4c.html'><span class='node-icon staruml-icon icon-UMLClass'></span>CCommunity</a></span>
         
       </section>
 
@@ -117,29 +117,6 @@
       
 
       <!-- Use Case -->
-
-      
-        
-        
-<section class="element-list">
-    <h3>Actors</h3>
-    <ul class="nav nav-list">
-        
-        <li><a href='5e3767c3104b507756821b96be4981a0.html'><span class='node-icon staruml-icon icon-UMLActor'></span>Vigilante</a></li>
-        
-        <li><a href='ade4febc524c77fd32486497d6b5d707.html'><span class='node-icon staruml-icon icon-UMLActor'></span>Ciudadano</a></li>
-        
-    </ul>
-</section>
-
-
-
-        
-        
-
-
-        
-        
 
       
 
@@ -255,7 +232,7 @@
     
     <tr>
         <td>name</td>
-        <td>Listar Objetos Perdidos</td>
+        <td>CCommunity</td>
     </tr>
     
     
@@ -324,10 +301,8 @@
     
     
     <tr>
-        <td>extensionPoints</td>
-        <td>
-            
-        </td>
+        <td>isActive</td>
+        <td><span class='label label-info'>false</span></td>
     </tr>
     
     
@@ -353,15 +328,6 @@
 
         
         
-<section class="element-list">
-    <h3>Dependants</h3>
-    <ul class="nav nav-list">
-        
-        <li><a href='1db6287bdb388d884f9f5acfe8706212.html'><span class='node-icon staruml-icon icon-UMLUseCase'></span>Registrar entrega de objeto perdido</a></li>
-        
-    </ul>
-</section>
-
 
       
 
@@ -373,11 +339,37 @@
     <h3>Relationships</h3>
     <ul class="nav nav-list">
         
-        <li><a href='6104c74160708450d6fe8b1ed13fd92d.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(Vigilante—Listar Objetos Perdidos)</a></li>
+        <li><a href='12c820305a62c08d6ff07a80b55f91a4.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(CCityzen—CCommunity)</a></li>
         
-        <li><a href='61cea3ffd60e107bdfbc4a02c957d202.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(Listar Objetos Perdidos—Ciudadano)</a></li>
+        <li><a href='c01f1706eff7c30d92225257f1e4040e.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(CVigilant—CCommunity)</a></li>
         
-        <li><a href='9e67b7f5236dc1040d9b710af1525cd0.html'><span class='node-icon staruml-icon icon-UMLDependency'></span>(Registrar entrega de objeto perdido→Listar Objetos Perdidos)</a></li>
+        <li><a href='d313e6f0a09a05d70a66690c6fbcec9d.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(CContract—CCommunity)</a></li>
+        
+        <li><a href='bfd83d2ee832db9936066fd90fe5c05a.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(CContract—CCommunity)</a></li>
+        
+        <li><a href='edb202b005d7e93aa0d73302dc0af838.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(CCommunity—CContract)</a></li>
+        
+        <li><a href='c3699582b85f4326abce2d3f07c93f9a.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(CCommunity—CMinuteBook)</a></li>
+        
+        <li><a href='baa41c376a3536ad4db831b086070cef.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(CCommunity—CInventory)</a></li>
+        
+        <li><a href='d2a4646b1081ab8829b5c39cbab7ffb2.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(CCommunity—CAlert)</a></li>
+        
+        <li><a href='d477008a7357a061d2b187fca9933718.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(CCommunity—CLostObject)</a></li>
+        
+        <li><a href='9ed0735a79022312fbc76ae1ff378281.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(CVisitor—CCommunity)</a></li>
+        
+        <li><a href='597bb103aee2118cb71a99b73bb9cd82.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(CNovelty—CCommunity)</a></li>
+        
+        <li><a href='0079b346ef57a601e0e158cf0a37b00a.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(CCommand—CCommunity)</a></li>
+        
+        <li><a href='1fcea93c21be290b5b6cad485c724b15.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(CIncident—CCommunity)</a></li>
+        
+        <li><a href='3dea4ec908d852a1dfdd0a4ca07fac23.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(CPreventionProcedure—CCommunity)</a></li>
+        
+        <li><a href='96bbad8748ccb56e382e2298796b65c6.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(CSupervisorVisit—CCommunity)</a></li>
+        
+        <li><a href='acaa672b92c9ab486f4041094552a280.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(CStaff—CCommunity)</a></li>
         
     </ul>
 </section>
@@ -392,7 +384,17 @@
     <h3>Owned Elements</h3>
     <ul class="nav nav-list">
         
-        <li><a href='61cea3ffd60e107bdfbc4a02c957d202.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(Listar Objetos Perdidos—Ciudadano)</a></li>
+        <li><a href='edb202b005d7e93aa0d73302dc0af838.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(CCommunity—CContract)</a></li>
+        
+        <li><a href='c3699582b85f4326abce2d3f07c93f9a.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(CCommunity—CMinuteBook)</a></li>
+        
+        <li><a href='baa41c376a3536ad4db831b086070cef.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(CCommunity—CInventory)</a></li>
+        
+        <li><a href='d2a4646b1081ab8829b5c39cbab7ffb2.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(CCommunity—CAlert)</a></li>
+        
+        <li><a href='d477008a7357a061d2b187fca9933718.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(CCommunity—CLostObject)</a></li>
+        
+        <li><a href='b15c008eec4019983e07ca4a61b9087f.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(CStaff—CWorker)</a></li>
         
     </ul>
 </section>

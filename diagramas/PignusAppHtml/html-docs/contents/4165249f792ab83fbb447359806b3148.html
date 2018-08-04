@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Listar Objetos Perdidos</title>
+    <title></title>
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic|Source+Code+Pro:300,400,700' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="../assets/css/bootstrap.css">
 <link rel="stylesheet" href="../assets/css/jquery.bonsai.css">
@@ -18,15 +18,17 @@
 
       <!-- Name Title -->
 
-      <h1>Listar Objetos Perdidos</h1>
+      <h1>(unnamed)</h1>
 
       <!-- Type and Stereotype -->
 
       <section style="margin-top: .5em;">
         <span class="alert alert-info">
-          <span class="node-icon staruml-icon icon-UMLUseCase"></span>
-          UMLUseCase
+          <span class="node-icon staruml-icon icon-UMLAssociationEnd"></span>
+          UMLAssociationEnd
         </span>
+        
+          <span style="margin-left: 10px" class="alert alert-info">«»</span>
         
       </section>
 
@@ -43,7 +45,13 @@
           <span class="label label-info"><a href='594af663de577680f35b13183109d675.html'><span class='node-icon staruml-icon icon-UMLModel'></span>Model</a></span>
         
           <span>::</span>
-          <span class="label label-info"><a href='b4159c50273192f6a2f27a7fa025064e.html'><span class='node-icon staruml-icon icon-UMLUseCase'></span>Listar Objetos Perdidos</a></span>
+          <span class="label label-info"><a href='9833a3d39ea41e5962d4eaa4b659ed96.html'><span class='node-icon staruml-icon icon-UMLClass'></span>CContract</a></span>
+        
+          <span>::</span>
+          <span class="label label-info"><a href='bfd83d2ee832db9936066fd90fe5c05a.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(CContract—CCommunity)</a></span>
+        
+          <span>::</span>
+          <span class="label label-info"><a href='4165249f792ab83fbb447359806b3148.html'><span class='node-icon staruml-icon icon-UMLAssociationEnd'></span>(AssociationEnd)</a></span>
         
       </section>
 
@@ -79,26 +87,6 @@
       <!-- Classifier -->
 
       
-        
-        
-
-
-        
-        
-
-
-        
-        
-
-
-        
-        
-
-
-        
-        
-
-      
 
       <!-- Interface -->
 
@@ -117,29 +105,6 @@
       
 
       <!-- Use Case -->
-
-      
-        
-        
-<section class="element-list">
-    <h3>Actors</h3>
-    <ul class="nav nav-list">
-        
-        <li><a href='5e3767c3104b507756821b96be4981a0.html'><span class='node-icon staruml-icon icon-UMLActor'></span>Vigilante</a></li>
-        
-        <li><a href='ade4febc524c77fd32486497d6b5d707.html'><span class='node-icon staruml-icon icon-UMLActor'></span>Ciudadano</a></li>
-        
-    </ul>
-</section>
-
-
-
-        
-        
-
-
-        
-        
 
       
 
@@ -255,7 +220,7 @@
     
     <tr>
         <td>name</td>
-        <td>Listar Objetos Perdidos</td>
+        <td></td>
     </tr>
     
     
@@ -269,8 +234,17 @@
     
     
     <tr>
+        <td>reference</td>
+        <td><a href='9833a3d39ea41e5962d4eaa4b659ed96.html'><span class='node-icon staruml-icon icon-UMLClass'></span>CContract</a></td>
+    </tr>
+    
+    
+    
+    
+    
+    <tr>
         <td>stereotype</td>
-        <td><span class='label label-info'>null</span></td>
+        <td></td>
     </tr>
     
     
@@ -286,18 +260,44 @@
     
     
     
-    
-    
-    
-    
-    
+    <tr>
+        <td>navigable</td>
+        <td><span class='label label-info'>true</span></td>
+    </tr>
     
     
     
     
     
     <tr>
-        <td>isAbstract</td>
+        <td>aggregation</td>
+        <td>none</td>
+    </tr>
+    
+    
+    
+    
+    
+    <tr>
+        <td>multiplicity</td>
+        <td>1..*</td>
+    </tr>
+    
+    
+    
+    
+    
+    <tr>
+        <td>defaultValue</td>
+        <td></td>
+    </tr>
+    
+    
+    
+    
+    
+    <tr>
+        <td>isReadOnly</td>
         <td><span class='label label-info'>false</span></td>
     </tr>
     
@@ -306,7 +306,7 @@
     
     
     <tr>
-        <td>isFinalSpecialization</td>
+        <td>isOrdered</td>
         <td><span class='label label-info'>false</span></td>
     </tr>
     
@@ -315,7 +315,7 @@
     
     
     <tr>
-        <td>isLeaf</td>
+        <td>isUnique</td>
         <td><span class='label label-info'>false</span></td>
     </tr>
     
@@ -324,7 +324,25 @@
     
     
     <tr>
-        <td>extensionPoints</td>
+        <td>isDerived</td>
+        <td><span class='label label-info'>false</span></td>
+    </tr>
+    
+    
+    
+    
+    
+    <tr>
+        <td>isID</td>
+        <td><span class='label label-info'>false</span></td>
+    </tr>
+    
+    
+    
+    
+    
+    <tr>
+        <td>qualifiers</td>
         <td>
             
         </td>
@@ -343,60 +361,17 @@
       <!-- Constraints, Dependencies, Dependants -->
 
       
-        
-        
-
-
-        
-        
-
-
-        
-        
-<section class="element-list">
-    <h3>Dependants</h3>
-    <ul class="nav nav-list">
-        
-        <li><a href='1db6287bdb388d884f9f5acfe8706212.html'><span class='node-icon staruml-icon icon-UMLUseCase'></span>Registrar entrega de objeto perdido</a></li>
-        
-    </ul>
-</section>
-
-
-      
 
       <!-- Relationships -->
 
       
       
-<section class="element-list">
-    <h3>Relationships</h3>
-    <ul class="nav nav-list">
-        
-        <li><a href='6104c74160708450d6fe8b1ed13fd92d.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(Vigilante—Listar Objetos Perdidos)</a></li>
-        
-        <li><a href='61cea3ffd60e107bdfbc4a02c957d202.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(Listar Objetos Perdidos—Ciudadano)</a></li>
-        
-        <li><a href='9e67b7f5236dc1040d9b710af1525cd0.html'><span class='node-icon staruml-icon icon-UMLDependency'></span>(Registrar entrega de objeto perdido→Listar Objetos Perdidos)</a></li>
-        
-    </ul>
-</section>
-
 
 
       <!-- Owned Elements -->
 
       
       
-<section class="element-list">
-    <h3>Owned Elements</h3>
-    <ul class="nav nav-list">
-        
-        <li><a href='61cea3ffd60e107bdfbc4a02c957d202.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(Listar Objetos Perdidos—Ciudadano)</a></li>
-        
-    </ul>
-</section>
-
 
 
     </div>
