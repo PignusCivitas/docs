@@ -23427,7 +23427,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFk+vMU9CnF++8="
 							},
-							"name": "username"
+							"name": "username",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -23435,7 +23436,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFk+vMU9CnF++8="
 							},
-							"name": "password"
+							"name": "password",
+							"type": ""
 						}
 					]
 				},
@@ -23859,7 +23861,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFlBV9YJYhRuCM="
 							},
-							"name": "name"
+							"name": "name",
+							"type": ""
 						}
 					]
 				},
@@ -24398,7 +24401,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFlBuRV7CXEt/c="
 							},
-							"name": "firstname"
+							"name": "firstname",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -24406,7 +24410,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFlBuRV7CXEt/c="
 							},
-							"name": "lastname"
+							"name": "lastname",
+							"type": ""
 						}
 					]
 				}
