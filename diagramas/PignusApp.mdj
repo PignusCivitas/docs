@@ -8656,9 +8656,9 @@
 										"$ref": "AAAAAAFlJmsnYvWf/Lo="
 									},
 									"font": "Arial;13;0",
-									"left": 549,
+									"left": 548,
 									"top": 263,
-									"width": 19.5126953125,
+									"width": 20,
 									"height": 13,
 									"alpha": 0.5235987755982988,
 									"distance": 25,
@@ -9041,9 +9041,9 @@
 										"$ref": "AAAAAAFlJonDtgJUFvM="
 									},
 									"font": "Arial;13;0",
-									"left": 840,
+									"left": 839,
 									"top": 460,
-									"width": 19.5126953125,
+									"width": 20,
 									"height": 13,
 									"alpha": -0.5235987755982988,
 									"distance": 25,
@@ -25467,7 +25467,7 @@
 									"top": 325,
 									"width": 232.0078125,
 									"height": 13,
-									"text": "Vehículo"
+									"text": "Vehicle"
 								},
 								{
 									"_type": "ERDColumnCompartmentView",
@@ -25640,7 +25640,7 @@
 									"top": 133,
 									"width": 177.341796875,
 									"height": 13,
-									"text": "Tipo Vehículo"
+									"text": "VehicleType"
 								},
 								{
 									"_type": "ERDColumnCompartmentView",
@@ -25723,7 +25723,7 @@
 									"top": 213,
 									"width": 216.1005859375,
 									"height": 13,
-									"text": "Persona"
+									"text": "Person"
 								},
 								{
 									"_type": "ERDColumnCompartmentView",
@@ -25851,7 +25851,7 @@
 									"top": 661,
 									"width": 234.2041015625,
 									"height": 13,
-									"text": "Residente"
+									"text": "Member"
 								},
 								{
 									"_type": "ERDColumnCompartmentView",
@@ -25979,7 +25979,7 @@
 									"top": 485,
 									"width": 233.4677734375,
 									"height": 13,
-									"text": "Agente seguridad"
+									"text": "SecurityAgent"
 								},
 								{
 									"_type": "ERDColumnCompartmentView",
@@ -26092,7 +26092,7 @@
 									"top": 709,
 									"width": 239.98681640625,
 									"height": 13,
-									"text": "Empresa seguridad"
+									"text": "SecurityCompany"
 								},
 								{
 									"_type": "ERDColumnCompartmentView",
@@ -26235,7 +26235,7 @@
 									"top": 397,
 									"width": 219.01416015625,
 									"height": 13,
-									"text": "Registro Vehículos"
+									"text": "CheckVehicle"
 								},
 								{
 									"_type": "ERDColumnCompartmentView",
@@ -26408,7 +26408,7 @@
 									"top": 1029,
 									"width": 219.744140625,
 									"height": 13,
-									"text": "Inventario activos"
+									"text": "AssetStock"
 								},
 								{
 									"_type": "ERDColumnCompartmentView",
@@ -26551,7 +26551,7 @@
 									"top": 1301,
 									"width": 214.67236328125,
 									"height": 13,
-									"text": "Objetos encontrados"
+									"text": "LostObject"
 								},
 								{
 									"_type": "ERDColumnCompartmentView",
@@ -26709,7 +26709,7 @@
 									"top": 877,
 									"width": 234.9150390625,
 									"height": 13,
-									"text": "Elementos provistos"
+									"text": "Endowment"
 								},
 								{
 									"_type": "ERDColumnCompartmentView",
@@ -26837,7 +26837,7 @@
 									"top": 1213,
 									"width": 177.341796875,
 									"height": 13,
-									"text": "Tipo Elemento provisto"
+									"text": "ItemType"
 								},
 								{
 									"_type": "ERDColumnCompartmentView",
@@ -26920,7 +26920,7 @@
 									"top": 45,
 									"width": 190.82421875,
 									"height": 13,
-									"text": "Armamento"
+									"text": "Weapon"
 								},
 								{
 									"_type": "ERDColumnCompartmentView",
@@ -27033,7 +27033,7 @@
 									"top": 453,
 									"width": 204.56689453125,
 									"height": 13,
-									"text": "Notificaciones"
+									"text": "Notification"
 								},
 								{
 									"_type": "ERDColumnCompartmentView",
@@ -27191,7 +27191,7 @@
 									"top": 981,
 									"width": 234.89599609375,
 									"height": 13,
-									"text": "Eventos"
+									"text": "Event"
 								},
 								{
 									"_type": "ERDColumnCompartmentView",
@@ -27454,7 +27454,7 @@
 									"top": 1461,
 									"width": 240.69775390625,
 									"height": 13,
-									"text": "Personal mantenimiento"
+									"text": "Staff"
 								},
 								{
 									"_type": "ERDColumnCompartmentView",
@@ -27597,7 +27597,7 @@
 									"top": 1717,
 									"width": 252.72802734375,
 									"height": 13,
-									"text": "Entrada salida personal mantenimiento"
+									"text": "CheckStaff"
 								},
 								{
 									"_type": "ERDColumnCompartmentView",
@@ -27710,7 +27710,7 @@
 									"top": 189,
 									"width": 199.50146484375,
 									"height": 13,
-									"text": "Turno"
+									"text": "Schedule"
 								},
 								{
 									"_type": "ERDColumnCompartmentView",
@@ -27868,7 +27868,7 @@
 									"top": 53,
 									"width": 190.82421875,
 									"height": 13,
-									"text": "Ubicación armas"
+									"text": "WeaponLocation"
 								},
 								{
 									"_type": "ERDColumnCompartmentView",
@@ -27996,7 +27996,7 @@
 									"top": 725,
 									"width": 206.7314453125,
 									"height": 13,
-									"text": "Contratos"
+									"text": "Contract"
 								},
 								{
 									"_type": "ERDColumnCompartmentView",
@@ -28184,7 +28184,7 @@
 									"top": 901,
 									"width": 237.81591796875,
 									"height": 13,
-									"text": "Comunidad"
+									"text": "Community"
 								},
 								{
 									"_type": "ERDColumnCompartmentView",
@@ -28372,7 +28372,7 @@
 									"top": 37,
 									"width": 198.05419921875,
 									"height": 13,
-									"text": "Reporte lista negra"
+									"text": "BlackList"
 								},
 								{
 									"_type": "ERDColumnCompartmentView",
@@ -28500,7 +28500,7 @@
 									"top": 581,
 									"width": 226.97412109375,
 									"height": 13,
-									"text": "Alerta"
+									"text": "Alert"
 								},
 								{
 									"_type": "ERDColumnCompartmentView",
@@ -29389,7 +29389,7 @@
 									"top": 277,
 									"width": 196.63232421875,
 									"height": 13,
-									"text": "Usuario"
+									"text": "User"
 								},
 								{
 									"_type": "ERDColumnCompartmentView",
@@ -29679,7 +29679,7 @@
 									"top": 1309,
 									"width": 208.19140625,
 									"height": 13,
-									"text": "Activo"
+									"text": "Asset"
 								},
 								{
 									"_type": "ERDColumnCompartmentView",
@@ -30257,7 +30257,7 @@
 									"top": 885,
 									"width": 177.341796875,
 									"height": 13,
-									"text": "Tipo Residente"
+									"text": "MemberType"
 								},
 								{
 									"_type": "ERDColumnCompartmentView",
@@ -30340,7 +30340,7 @@
 									"top": 373,
 									"width": 190.82421875,
 									"height": 13,
-									"text": "Tipo agente"
+									"text": "AgentType"
 								},
 								{
 									"_type": "ERDColumnCompartmentView",
@@ -30925,7 +30925,7 @@
 									"top": 1101,
 									"width": 200.9423828125,
 									"height": 13,
-									"text": "División"
+									"text": "Layout"
 								},
 								{
 									"_type": "ERDColumnCompartmentView",
@@ -31215,7 +31215,7 @@
 									"top": 877,
 									"width": 226.9931640625,
 									"height": 13,
-									"text": "Elemento"
+									"text": "Item"
 								},
 								{
 									"_type": "ERDColumnCompartmentView",
@@ -32185,7 +32185,7 @@
 									"top": 1253,
 									"width": 226.97412109375,
 									"height": 13,
-									"text": "Minuta Generada"
+									"text": "MinuteBook"
 								},
 								{
 									"_type": "ERDColumnCompartmentView",
@@ -32394,7 +32394,7 @@
 									"top": 1093,
 									"width": 190.82421875,
 									"height": 13,
-									"text": "Tipo Comunidad"
+									"text": "CommunityType"
 								},
 								{
 									"_type": "ERDColumnCompartmentView",
@@ -32720,7 +32720,7 @@
 									"top": 69,
 									"width": 190.82421875,
 									"height": 13,
-									"text": "Tipo armamento"
+									"text": "WeaponType"
 								},
 								{
 									"_type": "ERDColumnCompartmentView",
@@ -32899,7 +32899,7 @@
 									"top": 1509,
 									"width": 190.82421875,
 									"height": 13,
-									"text": "Cargos mantenimiento"
+									"text": "StaffJob"
 								},
 								{
 									"_type": "ERDColumnCompartmentView",
@@ -33138,6 +33138,300 @@
 							"headNameLabel": {
 								"$ref": "AAAAAAFlJurVzxrI7c4="
 							}
+						},
+						{
+							"_type": "ERDEntityView",
+							"_id": "AAAAAAFlKU4AF9ha0QU=",
+							"_parent": {
+								"$ref": "AAAAAAFlFTJ77fUDmsk="
+							},
+							"model": {
+								"$ref": "AAAAAAFlFXX7hvcKQ4g="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFlKU4AF9hbRoA=",
+									"_parent": {
+										"$ref": "AAAAAAFlKU4AF9ha0QU="
+									},
+									"font": "Arial;13;1",
+									"left": 576,
+									"top": 437,
+									"width": 63.94873046875,
+									"height": 13,
+									"text": "Visitor"
+								},
+								{
+									"_type": "ERDColumnCompartmentView",
+									"_id": "AAAAAAFlKU4AF9hc8xg=",
+									"_parent": {
+										"$ref": "AAAAAAFlKU4AF9ha0QU="
+									},
+									"model": {
+										"$ref": "AAAAAAFlFXX7hvcKQ4g="
+									},
+									"font": "Arial;13;0",
+									"left": 576,
+									"top": 455,
+									"width": 63.94873046875,
+									"height": 10
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 576,
+							"top": 432,
+							"width": 63.94873046875,
+							"height": 33,
+							"nameLabel": {
+								"$ref": "AAAAAAFlKU4AF9hbRoA="
+							},
+							"columnCompartment": {
+								"$ref": "AAAAAAFlKU4AF9hc8xg="
+							}
+						},
+						{
+							"_type": "ERDRelationshipView",
+							"_id": "AAAAAAFlKU4AF9hdGi8=",
+							"_parent": {
+								"$ref": "AAAAAAFlFTJ77fUDmsk="
+							},
+							"model": {
+								"$ref": "AAAAAAFlFYAml/juJGQ="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFlKU4AF9he5c0=",
+									"_parent": {
+										"$ref": "AAAAAAFlKU4AF9hdGi8="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 621,
+									"top": 353,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFlKU4AF9hdGi8="
+									},
+									"edgePosition": 1
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFlKU4AF9hfNNM=",
+									"_parent": {
+										"$ref": "AAAAAAFlKU4AF9hdGi8="
+									},
+									"font": "Arial;13;0",
+									"left": 400,
+									"top": 339,
+									"height": 13,
+									"alpha": 0.5235987755982988,
+									"distance": 30,
+									"hostEdge": {
+										"$ref": "AAAAAAFlKU4AF9hdGi8="
+									},
+									"edgePosition": 2
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFlKU4AF9hgtSM=",
+									"_parent": {
+										"$ref": "AAAAAAFlKU4AF9hdGi8="
+									},
+									"font": "Arial;13;0",
+									"left": 622,
+									"top": 400,
+									"height": 13,
+									"alpha": -0.5235987755982988,
+									"distance": 30,
+									"hostEdge": {
+										"$ref": "AAAAAAFlKU4AF9hdGi8="
+									}
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFlKU4AF9ha0QU="
+							},
+							"tail": {
+								"$ref": "AAAAAAFlFTMLz/XT8+M="
+							},
+							"lineStyle": 2,
+							"points": "375:360;607:360;607:432",
+							"nameLabel": {
+								"$ref": "AAAAAAFlKU4AF9he5c0="
+							},
+							"tailNameLabel": {
+								"$ref": "AAAAAAFlKU4AF9hfNNM="
+							},
+							"headNameLabel": {
+								"$ref": "AAAAAAFlKU4AF9hgtSM="
+							}
+						},
+						{
+							"_type": "ERDRelationshipView",
+							"_id": "AAAAAAFlKU4AF9hl1xA=",
+							"_parent": {
+								"$ref": "AAAAAAFlFTJ77fUDmsk="
+							},
+							"model": {
+								"$ref": "AAAAAAFlFYd95/oMLtM="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFlKU4AF9hmaw4=",
+									"_parent": {
+										"$ref": "AAAAAAFlKU4AF9hl1xA="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 695,
+									"top": 441,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFlKU4AF9hl1xA="
+									},
+									"edgePosition": 1
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFlKU4AF9hnvn4=",
+									"_parent": {
+										"$ref": "AAAAAAFlKU4AF9hl1xA="
+									},
+									"font": "Arial;13;0",
+									"left": 664,
+									"top": 427,
+									"height": 13,
+									"alpha": 0.5235987755982988,
+									"distance": 30,
+									"hostEdge": {
+										"$ref": "AAAAAAFlKU4AF9hl1xA="
+									},
+									"edgePosition": 2
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFlKU4AF9hoDIQ=",
+									"_parent": {
+										"$ref": "AAAAAAFlKU4AF9hl1xA="
+									},
+									"font": "Arial;13;0",
+									"left": 695,
+									"top": 347,
+									"height": 13,
+									"alpha": -0.5235987755982988,
+									"distance": 30,
+									"hostEdge": {
+										"$ref": "AAAAAAFlKU4AF9hl1xA="
+									}
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFlFXVm9/bUmN4="
+							},
+							"tail": {
+								"$ref": "AAAAAAFlKU4AF9ha0QU="
+							},
+							"lineStyle": 2,
+							"points": "639:448;710:448;710:328",
+							"nameLabel": {
+								"$ref": "AAAAAAFlKU4AF9hmaw4="
+							},
+							"tailNameLabel": {
+								"$ref": "AAAAAAFlKU4AF9hnvn4="
+							},
+							"headNameLabel": {
+								"$ref": "AAAAAAFlKU4AF9hoDIQ="
+							}
+						},
+						{
+							"_type": "ERDRelationshipView",
+							"_id": "AAAAAAFlKU4AJ9hprlI=",
+							"_parent": {
+								"$ref": "AAAAAAFlFTJ77fUDmsk="
+							},
+							"model": {
+								"$ref": "AAAAAAFlFYJeK/lnWgw="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFlKU4AJ9hq7mc=",
+									"_parent": {
+										"$ref": "AAAAAAFlKU4AJ9hprlI="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 601,
+									"top": 889,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFlKU4AJ9hprlI="
+									},
+									"edgePosition": 1
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFlKU4AJ9hrx1g=",
+									"_parent": {
+										"$ref": "AAAAAAFlKU4AJ9hprlI="
+									},
+									"font": "Arial;13;0",
+									"left": 806,
+									"top": 904,
+									"height": 13,
+									"alpha": 0.5235987755982988,
+									"distance": 30,
+									"hostEdge": {
+										"$ref": "AAAAAAFlKU4AJ9hprlI="
+									},
+									"edgePosition": 2
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFlKU4AJ9hsyNE=",
+									"_parent": {
+										"$ref": "AAAAAAFlKU4AJ9hprlI="
+									},
+									"font": "Arial;13;0",
+									"left": 601,
+									"top": 483,
+									"height": 13,
+									"alpha": -0.5235987755982988,
+									"distance": 30,
+									"hostEdge": {
+										"$ref": "AAAAAAFlKU4AJ9hprlI="
+									}
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFlKU4AF9ha0QU="
+							},
+							"tail": {
+								"$ref": "AAAAAAFlFXrVxfgkp+I="
+							},
+							"lineStyle": 2,
+							"points": "832:896;616:896;616:464",
+							"nameLabel": {
+								"$ref": "AAAAAAFlKU4AJ9hq7mc="
+							},
+							"tailNameLabel": {
+								"$ref": "AAAAAAFlKU4AJ9hrx1g="
+							},
+							"headNameLabel": {
+								"$ref": "AAAAAAFlKU4AJ9hsyNE="
+							}
 						}
 					]
 				},
@@ -33147,7 +33441,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFlFTJ77PUCgMM="
 					},
-					"name": "Vehículo",
+					"name": "Vehicle",
 					"ownedElements": [
 						{
 							"_type": "ERDRelationship",
@@ -33357,7 +33651,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFlFTJ77PUCgMM="
 					},
-					"name": "Tipo Vehículo",
+					"name": "VehicleType",
 					"ownedElements": [
 						{
 							"_type": "ERDRelationship",
@@ -33417,7 +33711,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFlFTJ77PUCgMM="
 					},
-					"name": "Persona",
+					"name": "Person",
 					"ownedElements": [
 						{
 							"_type": "ERDRelationship",
@@ -33620,7 +33914,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFlFTJ77PUCgMM="
 					},
-					"name": "Residente",
+					"name": "Member",
 					"ownedElements": [
 						{
 							"_type": "ERDRelationship",
@@ -33798,7 +34092,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFlFTJ77PUCgMM="
 					},
-					"name": "Agente seguridad",
+					"name": "SecurityAgent",
 					"ownedElements": [
 						{
 							"_type": "ERDRelationship",
@@ -34049,7 +34343,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFlFTJ77PUCgMM="
 					},
-					"name": "Visitante",
+					"name": "Visitor",
 					"ownedElements": [
 						{
 							"_type": "ERDRelationship",
@@ -34109,49 +34403,11 @@
 				},
 				{
 					"_type": "ERDEntity",
-					"_id": "AAAAAAFlFXa6IvcYAVM=",
-					"_parent": {
-						"$ref": "AAAAAAFlFTJ77PUCgMM="
-					},
-					"name": "Representante",
-					"ownedElements": [
-						{
-							"_type": "ERDRelationship",
-							"_id": "AAAAAAFlFZHGp/s8Eoc=",
-							"_parent": {
-								"$ref": "AAAAAAFlFXa6IvcYAVM="
-							},
-							"end1": {
-								"_type": "ERDRelationshipEnd",
-								"_id": "AAAAAAFlFZHGp/s9evk=",
-								"_parent": {
-									"$ref": "AAAAAAFlFZHGp/s8Eoc="
-								},
-								"reference": {
-									"$ref": "AAAAAAFlFXa6IvcYAVM="
-								}
-							},
-							"end2": {
-								"_type": "ERDRelationshipEnd",
-								"_id": "AAAAAAFlFZHGp/s+WWw=",
-								"_parent": {
-									"$ref": "AAAAAAFlFZHGp/s8Eoc="
-								},
-								"reference": {
-									"$ref": "AAAAAAFlFXrVxfgiAAs="
-								},
-								"cardinality": "0..*"
-							}
-						}
-					]
-				},
-				{
-					"_type": "ERDEntity",
 					"_id": "AAAAAAFlFXbfUfcmOMY=",
 					"_parent": {
 						"$ref": "AAAAAAFlFTJ77PUCgMM="
 					},
-					"name": "Empresa seguridad",
+					"name": "SecurityCompany",
 					"ownedElements": [
 						{
 							"_type": "ERDRelationship",
@@ -34177,34 +34433,6 @@
 								},
 								"reference": {
 									"$ref": "AAAAAAFlFXXLevb8ujs="
-								},
-								"cardinality": "0..*"
-							}
-						},
-						{
-							"_type": "ERDRelationship",
-							"_id": "AAAAAAFlFYQ8bfmThQ0=",
-							"_parent": {
-								"$ref": "AAAAAAFlFXbfUfcmOMY="
-							},
-							"end1": {
-								"_type": "ERDRelationshipEnd",
-								"_id": "AAAAAAFlFYQ8bfmUnbg=",
-								"_parent": {
-									"$ref": "AAAAAAFlFYQ8bfmThQ0="
-								},
-								"reference": {
-									"$ref": "AAAAAAFlFXbfUfcmOMY="
-								}
-							},
-							"end2": {
-								"_type": "ERDRelationshipEnd",
-								"_id": "AAAAAAFlFYQ8bfmVhMY=",
-								"_parent": {
-									"$ref": "AAAAAAFlFYQ8bfmThQ0="
-								},
-								"reference": {
-									"$ref": "AAAAAAFlFXcLbfc1EkM="
 								},
 								"cardinality": "0..*"
 							}
@@ -34306,76 +34534,11 @@
 				},
 				{
 					"_type": "ERDEntity",
-					"_id": "AAAAAAFlFXcLbfc1EkM=",
-					"_parent": {
-						"$ref": "AAAAAAFlFTJ77PUCgMM="
-					},
-					"name": "Supervisor",
-					"ownedElements": [
-						{
-							"_type": "ERDRelationship",
-							"_id": "AAAAAAFlFYRRevmnycI=",
-							"_parent": {
-								"$ref": "AAAAAAFlFXcLbfc1EkM="
-							},
-							"end1": {
-								"_type": "ERDRelationshipEnd",
-								"_id": "AAAAAAFlFYRRevmoYd8=",
-								"_parent": {
-									"$ref": "AAAAAAFlFYRRevmnycI="
-								},
-								"reference": {
-									"$ref": "AAAAAAFlFXcLbfc1EkM="
-								}
-							},
-							"end2": {
-								"_type": "ERDRelationshipEnd",
-								"_id": "AAAAAAFlFYRRevmpvdc=",
-								"_parent": {
-									"$ref": "AAAAAAFlFYRRevmnycI="
-								},
-								"reference": {
-									"$ref": "AAAAAAFlFXXLevb8ujs="
-								},
-								"cardinality": "0..*"
-							}
-						},
-						{
-							"_type": "ERDRelationship",
-							"_id": "AAAAAAFlFYhT8/o8OeE=",
-							"_parent": {
-								"$ref": "AAAAAAFlFXcLbfc1EkM="
-							},
-							"end1": {
-								"_type": "ERDRelationshipEnd",
-								"_id": "AAAAAAFlFYhT8/o97aE=",
-								"_parent": {
-									"$ref": "AAAAAAFlFYhT8/o8OeE="
-								},
-								"reference": {
-									"$ref": "AAAAAAFlFXcLbfc1EkM="
-								}
-							},
-							"end2": {
-								"_type": "ERDRelationshipEnd",
-								"_id": "AAAAAAFlFYhT8/o+HeU=",
-								"_parent": {
-									"$ref": "AAAAAAFlFYhT8/o8OeE="
-								},
-								"reference": {
-									"$ref": "AAAAAAFlFXVm9/bSEcQ="
-								}
-							}
-						}
-					]
-				},
-				{
-					"_type": "ERDEntity",
 					"_id": "AAAAAAFlFXdtsvdTDko=",
 					"_parent": {
 						"$ref": "AAAAAAFlFTJ77PUCgMM="
 					},
-					"name": "Registro Vehículos",
+					"name": "CheckVehicle",
 					"ownedElements": [
 						{
 							"_type": "ERDRelationship",
@@ -34524,7 +34687,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFlFTJ77PUCgMM="
 					},
-					"name": "Inventario activos",
+					"name": "AssetStock",
 					"ownedElements": [
 						{
 							"_type": "ERDRelationship",
@@ -34651,7 +34814,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFlFTJ77PUCgMM="
 					},
-					"name": "Objetos encontrados",
+					"name": "LostObject",
 					"columns": [
 						{
 							"_type": "ERDColumn",
@@ -34733,7 +34896,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFlFTJ77PUCgMM="
 					},
-					"name": "Elementos provistos",
+					"name": "Endowment",
 					"ownedElements": [
 						{
 							"_type": "ERDRelationship",
@@ -34825,7 +34988,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFlFTJ77PUCgMM="
 					},
-					"name": "Tipo Elemento provisto",
+					"name": "ItemType",
 					"ownedElements": [
 						{
 							"_type": "ERDRelationship",
@@ -34886,7 +35049,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFlFTJ77PUCgMM="
 					},
-					"name": "Armamento",
+					"name": "Weapon",
 					"ownedElements": [
 						{
 							"_type": "ERDRelationship",
@@ -34968,7 +35131,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFlFTJ77PUCgMM="
 					},
-					"name": "Notificaciones",
+					"name": "Notification",
 					"columns": [
 						{
 							"_type": "ERDColumn",
@@ -35049,7 +35212,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFlFTJ77PUCgMM="
 					},
-					"name": "Eventos",
+					"name": "Event",
 					"columns": [
 						{
 							"_type": "ERDColumn",
@@ -35203,7 +35366,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFlFTJ77PUCgMM="
 					},
-					"name": "Personal mantenimiento",
+					"name": "Staff",
 					"ownedElements": [
 						{
 							"_type": "ERDRelationship",
@@ -35334,7 +35497,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFlFTJ77PUCgMM="
 					},
-					"name": "Entrada salida personal mantenimiento",
+					"name": "CheckStaff",
 					"columns": [
 						{
 							"_type": "ERDColumn",
@@ -35385,7 +35548,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFlFTJ77PUCgMM="
 					},
-					"name": "Turno",
+					"name": "Schedule",
 					"columns": [
 						{
 							"_type": "ERDColumn",
@@ -35468,7 +35631,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFlFTJ77PUCgMM="
 					},
-					"name": "Ubicación armas",
+					"name": "WeaponLocation",
 					"columns": [
 						{
 							"_type": "ERDColumn",
@@ -35532,7 +35695,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFlFTJ77PUCgMM="
 					},
-					"name": "Contratos",
+					"name": "Contract",
 					"ownedElements": [
 						{
 							"_type": "ERDRelationship",
@@ -35717,7 +35880,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFlFTJ77PUCgMM="
 					},
-					"name": "Comunidad",
+					"name": "Community",
 					"ownedElements": [
 						{
 							"_type": "ERDRelationship",
@@ -36164,7 +36327,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFlFTJ77PUCgMM="
 					},
-					"name": "Reporte lista negra",
+					"name": "BlackList",
 					"ownedElements": [
 						{
 							"_type": "ERDRelationship",
@@ -36311,7 +36474,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFlFTJ77PUCgMM="
 					},
-					"name": "Alerta",
+					"name": "Alert",
 					"columns": [
 						{
 							"_type": "ERDColumn",
@@ -36430,7 +36593,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFlFTJ77PUCgMM="
 					},
-					"name": "Usuario",
+					"name": "User",
 					"columns": [
 						{
 							"_type": "ERDColumn",
@@ -36529,7 +36692,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFlFTJ77PUCgMM="
 					},
-					"name": "Activo",
+					"name": "Asset",
 					"columns": [
 						{
 							"_type": "ERDColumn",
@@ -36621,7 +36784,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFlFTJ77PUCgMM="
 					},
-					"name": "Tipo Residente",
+					"name": "MemberType",
 					"ownedElements": [
 						{
 							"_type": "ERDRelationship",
@@ -36682,7 +36845,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFlFTJ77PUCgMM="
 					},
-					"name": "Tipo agente",
+					"name": "AgentType",
 					"columns": [
 						{
 							"_type": "ERDColumn",
@@ -36724,7 +36887,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFlFTJ77PUCgMM="
 					},
-					"name": "División",
+					"name": "Layout",
 					"columns": [
 						{
 							"_type": "ERDColumn",
@@ -36787,7 +36950,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFlFTJ77PUCgMM="
 					},
-					"name": "Elemento",
+					"name": "Item",
 					"columns": [
 						{
 							"_type": "ERDColumn",
@@ -36961,7 +37124,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFlFTJ77PUCgMM="
 					},
-					"name": "Minuta Generada",
+					"name": "MinuteBook",
 					"columns": [
 						{
 							"_type": "ERDColumn",
@@ -37023,7 +37186,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFlFTJ77PUCgMM="
 					},
-					"name": "Tipo Comunidad",
+					"name": "CommunityType",
 					"ownedElements": [
 						{
 							"_type": "ERDRelationship",
@@ -37084,7 +37247,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFlFTJ77PUCgMM="
 					},
-					"name": "Tipo armamento",
+					"name": "WeaponType",
 					"ownedElements": [
 						{
 							"_type": "ERDRelationship",
@@ -37156,7 +37319,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFlFTJ77PUCgMM="
 					},
-					"name": "Cargos mantenimiento",
+					"name": "StaffJob",
 					"ownedElements": [
 						{
 							"_type": "ERDRelationship",
