@@ -1,4 +1,4 @@
-rails g scaffold VehicleType name:string:uniq description:text
+#rails g scaffold VehicleType name:string:uniq description:text
 rails g scaffold SecurityCompany business_name:string:uniq address:string phone:string email:string:uniq identification:string:uniq
 rails g scaffold ItemType name:string:uniq description:text
 rails g scaffold WeaponLocation name:string:uniq phone:string contact:string notes:string
