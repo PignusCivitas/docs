@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Personal mantenimiento</title>
+    <title>Staff</title>
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic|Source+Code+Pro:300,400,700' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="../assets/css/bootstrap.css">
 <link rel="stylesheet" href="../assets/css/jquery.bonsai.css">
@@ -18,7 +18,7 @@
 
       <!-- Name Title -->
 
-      <h1>Personal mantenimiento</h1>
+      <h1>Staff</h1>
 
       <!-- Type and Stereotype -->
 
@@ -43,7 +43,7 @@
           <span class="label label-info"><a href='c0e47a10d7e94bde6198b9a6b050307c.html'><span class='node-icon staruml-icon icon-ERDDataModel'></span>Data Model1</a></span>
         
           <span>::</span>
-          <span class="label label-info"><a href='29a44f2ef8b84ee0ac5c345cc117d4e2.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Personal mantenimiento</a></span>
+          <span class="label label-info"><a href='29a44f2ef8b84ee0ac5c345cc117d4e2.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Staff</a></span>
         
       </section>
 
@@ -272,6 +272,51 @@
             <td><span class='label label-info'>false</span></td>
           </tr>
           
+          <tr>
+            <td><a href="833f1dadfa3682f722787681f856f4bb.html">staff_id</a></td>
+            <td>INTEGER(15)</td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>true</span></td>
+            <td>
+              
+                <a href='29a44f2ef8b84ee0ac5c345cc117d4e2.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Staff</a> ::
+              
+              <a href='b7f7df5e118d0e43c9f239991acdfdea.html'><span class='node-icon staruml-icon icon-ERDColumn'></span>id</a>
+            </td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+          </tr>
+          
+          <tr>
+            <td><a href="6363f43327d014b461c0afb4a4a15351.html">staff_Job_id</a></td>
+            <td>INTEGER(15)</td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>true</span></td>
+            <td>
+              
+                <a href='4d4c1d75a3c092d7ccc8467b55fb20d8.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>StaffJob</a> ::
+              
+              <a href='7a36420650893ae7718dea0f3085eff3.html'><span class='node-icon staruml-icon icon-ERDColumn'></span>id</a>
+            </td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+          </tr>
+          
+          <tr>
+            <td><a href="cc75aee9c6ee30c80580984de5cf559e.html">community_id</a></td>
+            <td>INTEGER(15)</td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>true</span></td>
+            <td>
+              
+                <a href='2066f9bec22fb8c7c1d990249e00a564.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Community</a> ::
+              
+              <a href='c1f3944fc74ba6d21c7bd00509f074b4.html'><span class='node-icon staruml-icon icon-ERDColumn'></span>id</a>
+            </td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+          </tr>
+          
         </table>                
       </section>
       
@@ -292,34 +337,42 @@
           
           
           <tr>
-            <td><a href='9685b6919e7876eaa7f6aed6b36d8065.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Entrada salida personal mantenimiento</a></td>
+            <td><a href='9685b6919e7876eaa7f6aed6b36d8065.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>CheckStaff</a></td>
             <td>0..*</td>
             <td></td>
-            <td><a href='1968efbf68e522d4781c50f9267f918a.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Personal mantenimiento—Entrada salida personal mantenimiento)</a></td>
+            <td><a href='1968efbf68e522d4781c50f9267f918a.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Staff—CheckStaff)</a></td>
           </tr>
           
           
           <tr>
-            <td><a href='29a44f2ef8b84ee0ac5c345cc117d4e2.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Personal mantenimiento</a></td>
+            <td><a href='29a44f2ef8b84ee0ac5c345cc117d4e2.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Staff</a></td>
             <td>0..*</td>
             <td></td>
-            <td><a href='f6594186d5fef70d9aa67d29abd7b50f.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Personal mantenimiento—Personal mantenimiento)</a></td>
+            <td><a href='f6594186d5fef70d9aa67d29abd7b50f.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Staff—Staff)</a></td>
           </tr>
           
           
           <tr>
-            <td><a href='2066f9bec22fb8c7c1d990249e00a564.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Comunidad</a></td>
+            <td><a href='1e4b90e95b946892a11e978297d26c4e.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>CommunityStaff</a></td>
             <td>0..*</td>
             <td></td>
-            <td><a href='3d7fe37773831197494e735f25ba5209.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Comunidad—Personal mantenimiento)</a></td>
+            <td><a href='375e956829679d9f4ff734cac30634d2.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Staff—CommunityStaff)</a></td>
           </tr>
           
           
           <tr>
-            <td><a href='4d4c1d75a3c092d7ccc8467b55fb20d8.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Cargos mantenimiento</a></td>
+            <td><a href='2066f9bec22fb8c7c1d990249e00a564.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Community</a></td>
+            <td>0..*</td>
+            <td></td>
+            <td><a href='3d7fe37773831197494e735f25ba5209.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Community—Staff)</a></td>
+          </tr>
+          
+          
+          <tr>
+            <td><a href='4d4c1d75a3c092d7ccc8467b55fb20d8.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>StaffJob</a></td>
             <td>1</td>
             <td></td>
-            <td><a href='ac40615825f7e1ef9b33fb4345195588.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Cargos mantenimiento—Personal mantenimiento)</a></td>
+            <td><a href='ac40615825f7e1ef9b33fb4345195588.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(StaffJob—Staff)</a></td>
           </tr>
           
         </table>                
@@ -353,7 +406,7 @@
     
     <tr>
         <td>name</td>
-        <td>Personal mantenimiento</td>
+        <td>Staff</td>
     </tr>
     
     
@@ -386,13 +439,15 @@
     <h3>Relationships</h3>
     <ul class="nav nav-list">
         
-        <li><a href='1968efbf68e522d4781c50f9267f918a.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Personal mantenimiento—Entrada salida personal mantenimiento)</a></li>
+        <li><a href='1968efbf68e522d4781c50f9267f918a.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Staff—CheckStaff)</a></li>
         
-        <li><a href='f6594186d5fef70d9aa67d29abd7b50f.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Personal mantenimiento—Personal mantenimiento)</a></li>
+        <li><a href='f6594186d5fef70d9aa67d29abd7b50f.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Staff—Staff)</a></li>
         
-        <li><a href='3d7fe37773831197494e735f25ba5209.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Comunidad—Personal mantenimiento)</a></li>
+        <li><a href='375e956829679d9f4ff734cac30634d2.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Staff—CommunityStaff)</a></li>
         
-        <li><a href='ac40615825f7e1ef9b33fb4345195588.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Cargos mantenimiento—Personal mantenimiento)</a></li>
+        <li><a href='3d7fe37773831197494e735f25ba5209.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Community—Staff)</a></li>
+        
+        <li><a href='ac40615825f7e1ef9b33fb4345195588.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(StaffJob—Staff)</a></li>
         
     </ul>
 </section>
@@ -407,9 +462,11 @@
     <h3>Owned Elements</h3>
     <ul class="nav nav-list">
         
-        <li><a href='1968efbf68e522d4781c50f9267f918a.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Personal mantenimiento—Entrada salida personal mantenimiento)</a></li>
+        <li><a href='1968efbf68e522d4781c50f9267f918a.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Staff—CheckStaff)</a></li>
         
-        <li><a href='f6594186d5fef70d9aa67d29abd7b50f.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Personal mantenimiento—Personal mantenimiento)</a></li>
+        <li><a href='f6594186d5fef70d9aa67d29abd7b50f.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Staff—Staff)</a></li>
+        
+        <li><a href='375e956829679d9f4ff734cac30634d2.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Staff—CommunityStaff)</a></li>
         
     </ul>
 </section>

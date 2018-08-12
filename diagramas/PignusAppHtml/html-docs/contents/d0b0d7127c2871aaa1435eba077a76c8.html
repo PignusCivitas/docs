@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Inventario activos</title>
+    <title>AssetStock</title>
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic|Source+Code+Pro:300,400,700' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="../assets/css/bootstrap.css">
 <link rel="stylesheet" href="../assets/css/jquery.bonsai.css">
@@ -18,7 +18,7 @@
 
       <!-- Name Title -->
 
-      <h1>Inventario activos</h1>
+      <h1>AssetStock</h1>
 
       <!-- Type and Stereotype -->
 
@@ -43,7 +43,7 @@
           <span class="label label-info"><a href='c0e47a10d7e94bde6198b9a6b050307c.html'><span class='node-icon staruml-icon icon-ERDDataModel'></span>Data Model1</a></span>
         
           <span>::</span>
-          <span class="label label-info"><a href='d0b0d7127c2871aaa1435eba077a76c8.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Inventario activos</a></span>
+          <span class="label label-info"><a href='d0b0d7127c2871aaa1435eba077a76c8.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>AssetStock</a></span>
         
       </section>
 
@@ -221,19 +221,6 @@
           </tr>
           
           <tr>
-            <td><a href="439bb62fa60036474f899ee4eccff478.html">creation_date</a></td>
-            <td>DATE</td>
-            <td><span class='label label-info'>false</span></td>
-            <td><span class='label label-info'>false</span></td>
-            <td>
-              
-              <span class='label label-info'>null</span>
-            </td>
-            <td><span class='label label-info'>false</span></td>
-            <td><span class='label label-info'>false</span></td>
-          </tr>
-          
-          <tr>
             <td><a href="a06589fb8eaa9fd0d9b9fe55a6b2d19e.html">manager</a></td>
             <td>VARCHAR(50)</td>
             <td><span class='label label-info'>false</span></td>
@@ -272,6 +259,36 @@
             <td><span class='label label-info'>false</span></td>
           </tr>
           
+          <tr>
+            <td><a href="50ba2313c806d71d7be85ab610a18e7a.html">asset_id</a></td>
+            <td>INTEGER(15)</td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>true</span></td>
+            <td>
+              
+                <a href='000d72e9966ad840dceb0654844a1eb7.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Asset</a> ::
+              
+              <a href='ba16173159d8d0edb1908e19b7f5f14a.html'><span class='node-icon staruml-icon icon-ERDColumn'></span>id</a>
+            </td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+          </tr>
+          
+          <tr>
+            <td><a href="4a54940a1892420ac2613b58101b7abe.html">community_id</a></td>
+            <td>INTEGER(15)</td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>true</span></td>
+            <td>
+              
+                <a href='2066f9bec22fb8c7c1d990249e00a564.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Community</a> ::
+              
+              <a href='c1f3944fc74ba6d21c7bd00509f074b4.html'><span class='node-icon staruml-icon icon-ERDColumn'></span>id</a>
+            </td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+          </tr>
+          
         </table>                
       </section>
       
@@ -292,26 +309,34 @@
           
           
           <tr>
-            <td><a href='000d72e9966ad840dceb0654844a1eb7.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Activo</a></td>
+            <td><a href='000d72e9966ad840dceb0654844a1eb7.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Asset</a></td>
             <td>0..*</td>
             <td></td>
-            <td><a href='53926e835350dae5598836911cff8338.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Inventario activos—Activo)</a></td>
+            <td><a href='53926e835350dae5598836911cff8338.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(AssetStock—Asset)</a></td>
           </tr>
           
           
           <tr>
-            <td><a href='000d72e9966ad840dceb0654844a1eb7.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Activo</a></td>
+            <td><a href='000d72e9966ad840dceb0654844a1eb7.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Asset</a></td>
             <td>0..*</td>
             <td></td>
-            <td><a href='7138726c040976aaab2d837fc2c31314.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Inventario activos—Activo)</a></td>
+            <td><a href='7138726c040976aaab2d837fc2c31314.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(AssetStock—Asset)</a></td>
           </tr>
           
           
           <tr>
-            <td><a href='2066f9bec22fb8c7c1d990249e00a564.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Comunidad</a></td>
+            <td><a href='2066f9bec22fb8c7c1d990249e00a564.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Community</a></td>
             <td>1</td>
             <td></td>
-            <td><a href='3b1ec400db7d5cd579b787ece7667d8b.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Comunidad—Inventario activos)</a></td>
+            <td><a href='3b1ec400db7d5cd579b787ece7667d8b.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Community—AssetStock)</a></td>
+          </tr>
+          
+          
+          <tr>
+            <td><a href='000d72e9966ad840dceb0654844a1eb7.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Asset</a></td>
+            <td>1</td>
+            <td></td>
+            <td><a href='aa2109911b60473f34d99d0512b71d46.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Asset—AssetStock)</a></td>
           </tr>
           
         </table>                
@@ -345,7 +370,7 @@
     
     <tr>
         <td>name</td>
-        <td>Inventario activos</td>
+        <td>AssetStock</td>
     </tr>
     
     
@@ -378,11 +403,13 @@
     <h3>Relationships</h3>
     <ul class="nav nav-list">
         
-        <li><a href='53926e835350dae5598836911cff8338.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Inventario activos—Activo)</a></li>
+        <li><a href='53926e835350dae5598836911cff8338.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(AssetStock—Asset)</a></li>
         
-        <li><a href='7138726c040976aaab2d837fc2c31314.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Inventario activos—Activo)</a></li>
+        <li><a href='7138726c040976aaab2d837fc2c31314.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(AssetStock—Asset)</a></li>
         
-        <li><a href='3b1ec400db7d5cd579b787ece7667d8b.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Comunidad—Inventario activos)</a></li>
+        <li><a href='3b1ec400db7d5cd579b787ece7667d8b.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Community—AssetStock)</a></li>
+        
+        <li><a href='aa2109911b60473f34d99d0512b71d46.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Asset—AssetStock)</a></li>
         
     </ul>
 </section>
@@ -397,9 +424,9 @@
     <h3>Owned Elements</h3>
     <ul class="nav nav-list">
         
-        <li><a href='53926e835350dae5598836911cff8338.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Inventario activos—Activo)</a></li>
+        <li><a href='53926e835350dae5598836911cff8338.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(AssetStock—Asset)</a></li>
         
-        <li><a href='7138726c040976aaab2d837fc2c31314.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Inventario activos—Activo)</a></li>
+        <li><a href='7138726c040976aaab2d837fc2c31314.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(AssetStock—Asset)</a></li>
         
     </ul>
 </section>

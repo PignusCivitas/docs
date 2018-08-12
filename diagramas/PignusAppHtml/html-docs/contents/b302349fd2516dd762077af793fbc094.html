@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Residente</title>
+    <title>Member</title>
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic|Source+Code+Pro:300,400,700' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="../assets/css/bootstrap.css">
 <link rel="stylesheet" href="../assets/css/jquery.bonsai.css">
@@ -18,7 +18,7 @@
 
       <!-- Name Title -->
 
-      <h1>Residente</h1>
+      <h1>Member</h1>
 
       <!-- Type and Stereotype -->
 
@@ -43,7 +43,7 @@
           <span class="label label-info"><a href='c0e47a10d7e94bde6198b9a6b050307c.html'><span class='node-icon staruml-icon icon-ERDDataModel'></span>Data Model1</a></span>
         
           <span>::</span>
-          <span class="label label-info"><a href='b302349fd2516dd762077af793fbc094.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Residente</a></span>
+          <span class="label label-info"><a href='b302349fd2516dd762077af793fbc094.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Member</a></span>
         
       </section>
 
@@ -259,6 +259,36 @@
             <td><span class='label label-info'>false</span></td>
           </tr>
           
+          <tr>
+            <td><a href="ea5957fabc192fefab29e2ec04424612.html">community_id</a></td>
+            <td>INTEGER(15)</td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>true</span></td>
+            <td>
+              
+                <a href='2066f9bec22fb8c7c1d990249e00a564.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Community</a> ::
+              
+              <a href='c1f3944fc74ba6d21c7bd00509f074b4.html'><span class='node-icon staruml-icon icon-ERDColumn'></span>id</a>
+            </td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+          </tr>
+          
+          <tr>
+            <td><a href="d314973a01540a0e6c0d82de3344e81e.html">person_id</a></td>
+            <td>INTEGER(15)</td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>true</span></td>
+            <td>
+              
+                <a href='7e1a7b5ae09447777fa6ee5a5835ec34.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Person</a> ::
+              
+              <a href='e5aa71d7b03811f69acd23d6aef07adc.html'><span class='node-icon staruml-icon icon-ERDColumn'></span>id</a>
+            </td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+          </tr>
+          
         </table>                
       </section>
       
@@ -279,26 +309,26 @@
           
           
           <tr>
-            <td><a href='789c532d1aed7725b39713f2ef835ac8.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Vehículo</a></td>
+            <td><a href='789c532d1aed7725b39713f2ef835ac8.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Vehicle</a></td>
             <td>1</td>
             <td></td>
-            <td><a href='9814f7666496a886de96996cb909ebad.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Vehículo—Residente)</a></td>
+            <td><a href='9814f7666496a886de96996cb909ebad.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Vehicle—Member)</a></td>
           </tr>
           
           
           <tr>
-            <td><a href='789c532d1aed7725b39713f2ef835ac8.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Vehículo</a></td>
+            <td><a href='789c532d1aed7725b39713f2ef835ac8.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Vehicle</a></td>
             <td>0..*</td>
             <td></td>
-            <td><a href='f59e4ceddc34562c8922e544928f4c2a.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Residente—Vehículo)</a></td>
+            <td><a href='f59e4ceddc34562c8922e544928f4c2a.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Member—Vehicle)</a></td>
           </tr>
           
           
           <tr>
-            <td><a href='7e1a7b5ae09447777fa6ee5a5835ec34.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Persona</a></td>
+            <td><a href='7e1a7b5ae09447777fa6ee5a5835ec34.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Person</a></td>
             <td>1</td>
             <td>Es una</td>
-            <td><a href='270f7f2f4186fba2b68eda21f09c4d0c.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Residente—Persona)</a></td>
+            <td><a href='270f7f2f4186fba2b68eda21f09c4d0c.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Member—Person)</a></td>
           </tr>
           
           
@@ -306,23 +336,23 @@
             <td><a href='45aaddfd7c5cb26134ba2eac6fbe1a04.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>TipoCiudadano</a></td>
             <td>0..*</td>
             <td></td>
-            <td><a href='72825b9529673f24be7ad0083a934fe5.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Residente—TipoCiudadano)</a></td>
+            <td><a href='72825b9529673f24be7ad0083a934fe5.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Member—TipoCiudadano)</a></td>
           </tr>
           
           
           <tr>
-            <td><a href='06678104ca4862d85800b145c3d0ffc7.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Tipo Residente</a></td>
+            <td><a href='fbac4755b7baad701beb3193934a2185.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>MemberTypeMember</a></td>
             <td>0..*</td>
             <td></td>
-            <td><a href='dc03991aa3c074267f4b5938e4a82696.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Residente—Tipo Residente)</a></td>
+            <td><a href='6c268e591a24771fec93c6ed0f0ece60.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Member—MemberTypeMember)</a></td>
           </tr>
           
           
           <tr>
-            <td><a href='2066f9bec22fb8c7c1d990249e00a564.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Comunidad</a></td>
+            <td><a href='2066f9bec22fb8c7c1d990249e00a564.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Community</a></td>
             <td>1</td>
             <td></td>
-            <td><a href='1109e9d12709804cbacb603e787e49c4.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Comunidad—Residente)</a></td>
+            <td><a href='1109e9d12709804cbacb603e787e49c4.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Community—Member)</a></td>
           </tr>
           
           
@@ -330,15 +360,15 @@
             <td><a href='45aaddfd7c5cb26134ba2eac6fbe1a04.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>TipoCiudadano</a></td>
             <td>1</td>
             <td></td>
-            <td><a href='cd56da60318145f3ee1675b049d29c0e.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(TipoCiudadano—Residente)</a></td>
+            <td><a href='cd56da60318145f3ee1675b049d29c0e.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(TipoCiudadano—Member)</a></td>
           </tr>
           
           
           <tr>
-            <td><a href='06678104ca4862d85800b145c3d0ffc7.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Tipo Residente</a></td>
+            <td><a href='06678104ca4862d85800b145c3d0ffc7.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>MemberType</a></td>
             <td>1</td>
             <td></td>
-            <td><a href='888029039841aca99759dde120ddfbe6.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Tipo Residente—Residente)</a></td>
+            <td><a href='888029039841aca99759dde120ddfbe6.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(MemberType—Member)</a></td>
           </tr>
           
         </table>                
@@ -372,7 +402,7 @@
     
     <tr>
         <td>name</td>
-        <td>Residente</td>
+        <td>Member</td>
     </tr>
     
     
@@ -405,21 +435,21 @@
     <h3>Relationships</h3>
     <ul class="nav nav-list">
         
-        <li><a href='9814f7666496a886de96996cb909ebad.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Vehículo—Residente)</a></li>
+        <li><a href='9814f7666496a886de96996cb909ebad.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Vehicle—Member)</a></li>
         
-        <li><a href='f59e4ceddc34562c8922e544928f4c2a.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Residente—Vehículo)</a></li>
+        <li><a href='f59e4ceddc34562c8922e544928f4c2a.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Member—Vehicle)</a></li>
         
-        <li><a href='270f7f2f4186fba2b68eda21f09c4d0c.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Residente—Persona)</a></li>
+        <li><a href='270f7f2f4186fba2b68eda21f09c4d0c.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Member—Person)</a></li>
         
-        <li><a href='72825b9529673f24be7ad0083a934fe5.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Residente—TipoCiudadano)</a></li>
+        <li><a href='72825b9529673f24be7ad0083a934fe5.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Member—TipoCiudadano)</a></li>
         
-        <li><a href='dc03991aa3c074267f4b5938e4a82696.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Residente—Tipo Residente)</a></li>
+        <li><a href='6c268e591a24771fec93c6ed0f0ece60.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Member—MemberTypeMember)</a></li>
         
-        <li><a href='1109e9d12709804cbacb603e787e49c4.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Comunidad—Residente)</a></li>
+        <li><a href='1109e9d12709804cbacb603e787e49c4.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Community—Member)</a></li>
         
-        <li><a href='cd56da60318145f3ee1675b049d29c0e.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(TipoCiudadano—Residente)</a></li>
+        <li><a href='cd56da60318145f3ee1675b049d29c0e.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(TipoCiudadano—Member)</a></li>
         
-        <li><a href='888029039841aca99759dde120ddfbe6.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Tipo Residente—Residente)</a></li>
+        <li><a href='888029039841aca99759dde120ddfbe6.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(MemberType—Member)</a></li>
         
     </ul>
 </section>
@@ -434,13 +464,13 @@
     <h3>Owned Elements</h3>
     <ul class="nav nav-list">
         
-        <li><a href='f59e4ceddc34562c8922e544928f4c2a.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Residente—Vehículo)</a></li>
+        <li><a href='f59e4ceddc34562c8922e544928f4c2a.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Member—Vehicle)</a></li>
         
-        <li><a href='270f7f2f4186fba2b68eda21f09c4d0c.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Residente—Persona)</a></li>
+        <li><a href='270f7f2f4186fba2b68eda21f09c4d0c.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Member—Person)</a></li>
         
-        <li><a href='72825b9529673f24be7ad0083a934fe5.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Residente—TipoCiudadano)</a></li>
+        <li><a href='72825b9529673f24be7ad0083a934fe5.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Member—TipoCiudadano)</a></li>
         
-        <li><a href='dc03991aa3c074267f4b5938e4a82696.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Residente—Tipo Residente)</a></li>
+        <li><a href='6c268e591a24771fec93c6ed0f0ece60.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Member—MemberTypeMember)</a></li>
         
     </ul>
 </section>

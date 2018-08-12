@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Alerta</title>
+    <title>Alert</title>
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic|Source+Code+Pro:300,400,700' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="../assets/css/bootstrap.css">
 <link rel="stylesheet" href="../assets/css/jquery.bonsai.css">
@@ -18,7 +18,7 @@
 
       <!-- Name Title -->
 
-      <h1>Alerta</h1>
+      <h1>Alert</h1>
 
       <!-- Type and Stereotype -->
 
@@ -43,7 +43,7 @@
           <span class="label label-info"><a href='c0e47a10d7e94bde6198b9a6b050307c.html'><span class='node-icon staruml-icon icon-ERDDataModel'></span>Data Model1</a></span>
         
           <span>::</span>
-          <span class="label label-info"><a href='7c49787fa3bdf11885de53467dc87acb.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Alerta</a></span>
+          <span class="label label-info"><a href='7c49787fa3bdf11885de53467dc87acb.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Alert</a></span>
         
       </section>
 
@@ -285,6 +285,36 @@
             <td><span class='label label-info'>false</span></td>
           </tr>
           
+          <tr>
+            <td><a href="f89cb482f430290200e8bb329651e09a.html">community_id</a></td>
+            <td>INTEGER(15)</td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>true</span></td>
+            <td>
+              
+                <a href='2066f9bec22fb8c7c1d990249e00a564.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Community</a> ::
+              
+              <a href='c1f3944fc74ba6d21c7bd00509f074b4.html'><span class='node-icon staruml-icon icon-ERDColumn'></span>id</a>
+            </td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+          </tr>
+          
+          <tr>
+            <td><a href="cc62a92138bd7bddf55d42e0165b3f55.html">user_id</a></td>
+            <td>INTEGER(15)</td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>true</span></td>
+            <td>
+              
+                <a href='6c14bf33d8d9d258db5e613709dad9ac.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>User</a> ::
+              
+              <a href='7d6583ec6803204582d16b260f67fb8e.html'><span class='node-icon staruml-icon icon-ERDColumn'></span>id</a>
+            </td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+          </tr>
+          
         </table>                
       </section>
       
@@ -305,18 +335,26 @@
           
           
           <tr>
-            <td><a href='6c14bf33d8d9d258db5e613709dad9ac.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Usuario</a></td>
+            <td><a href='6c14bf33d8d9d258db5e613709dad9ac.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>User</a></td>
             <td>1</td>
             <td></td>
-            <td><a href='346eaa0c1aa694d235c5f62b4ff5d54e.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Usuario—Alerta)</a></td>
+            <td><a href='346eaa0c1aa694d235c5f62b4ff5d54e.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(User—Alert)</a></td>
           </tr>
           
           
           <tr>
-            <td><a href='2066f9bec22fb8c7c1d990249e00a564.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Comunidad</a></td>
+            <td><a href='2066f9bec22fb8c7c1d990249e00a564.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Community</a></td>
             <td>0..*</td>
             <td></td>
-            <td><a href='ef91c4a29deb02411995dc47f52223f2.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Comunidad—Alerta)</a></td>
+            <td><a href='ef91c4a29deb02411995dc47f52223f2.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Community—Alert)</a></td>
+          </tr>
+          
+          
+          <tr>
+            <td><a href='e0cfdbb91b06f414c706c19f5491a276.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>AlertCommunity</a></td>
+            <td>0..*</td>
+            <td></td>
+            <td><a href='c82a41d02680b52eadb4b95118b37fe4.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Alert—AlertCommunity)</a></td>
           </tr>
           
         </table>                
@@ -350,7 +388,7 @@
     
     <tr>
         <td>name</td>
-        <td>Alerta</td>
+        <td>Alert</td>
     </tr>
     
     
@@ -383,9 +421,11 @@
     <h3>Relationships</h3>
     <ul class="nav nav-list">
         
-        <li><a href='346eaa0c1aa694d235c5f62b4ff5d54e.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Usuario—Alerta)</a></li>
+        <li><a href='346eaa0c1aa694d235c5f62b4ff5d54e.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(User—Alert)</a></li>
         
-        <li><a href='ef91c4a29deb02411995dc47f52223f2.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Comunidad—Alerta)</a></li>
+        <li><a href='ef91c4a29deb02411995dc47f52223f2.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Community—Alert)</a></li>
+        
+        <li><a href='c82a41d02680b52eadb4b95118b37fe4.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Alert—AlertCommunity)</a></li>
         
     </ul>
 </section>
@@ -396,6 +436,15 @@
 
       
       
+<section class="element-list">
+    <h3>Owned Elements</h3>
+    <ul class="nav nav-list">
+        
+        <li><a href='c82a41d02680b52eadb4b95118b37fe4.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Alert—AlertCommunity)</a></li>
+        
+    </ul>
+</section>
+
 
 
     </div>

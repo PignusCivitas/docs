@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Ubicación armas</title>
+    <title>WeaponLocation</title>
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic|Source+Code+Pro:300,400,700' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="../assets/css/bootstrap.css">
 <link rel="stylesheet" href="../assets/css/jquery.bonsai.css">
@@ -18,7 +18,7 @@
 
       <!-- Name Title -->
 
-      <h1>Ubicación armas</h1>
+      <h1>WeaponLocation</h1>
 
       <!-- Type and Stereotype -->
 
@@ -43,7 +43,7 @@
           <span class="label label-info"><a href='c0e47a10d7e94bde6198b9a6b050307c.html'><span class='node-icon staruml-icon icon-ERDDataModel'></span>Data Model1</a></span>
         
           <span>::</span>
-          <span class="label label-info"><a href='60e56654a2499c47a350826280ebd16b.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Ubicación armas</a></span>
+          <span class="label label-info"><a href='60e56654a2499c47a350826280ebd16b.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>WeaponLocation</a></span>
         
       </section>
 
@@ -279,10 +279,18 @@
           
           
           <tr>
-            <td><a href='86793f032c0c01d2c17896d597fc2769.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Armamento</a></td>
+            <td><a href='86793f032c0c01d2c17896d597fc2769.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Weapon</a></td>
             <td>1</td>
             <td></td>
-            <td><a href='8c3605047c8cdf4e2925d9af7b02c677.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Armamento—Ubicación armas)</a></td>
+            <td><a href='8c3605047c8cdf4e2925d9af7b02c677.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Weapon—WeaponLocation)</a></td>
+          </tr>
+          
+          
+          <tr>
+            <td><a href='86793f032c0c01d2c17896d597fc2769.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Weapon</a></td>
+            <td>0..*</td>
+            <td></td>
+            <td><a href='6e30b4a3243da16d9fb4763bf578f2ad.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(WeaponLocation—Weapon)</a></td>
           </tr>
           
         </table>                
@@ -316,7 +324,7 @@
     
     <tr>
         <td>name</td>
-        <td>Ubicación armas</td>
+        <td>WeaponLocation</td>
     </tr>
     
     
@@ -349,7 +357,9 @@
     <h3>Relationships</h3>
     <ul class="nav nav-list">
         
-        <li><a href='8c3605047c8cdf4e2925d9af7b02c677.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Armamento—Ubicación armas)</a></li>
+        <li><a href='8c3605047c8cdf4e2925d9af7b02c677.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Weapon—WeaponLocation)</a></li>
+        
+        <li><a href='6e30b4a3243da16d9fb4763bf578f2ad.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(WeaponLocation—Weapon)</a></li>
         
     </ul>
 </section>
@@ -360,6 +370,15 @@
 
       
       
+<section class="element-list">
+    <h3>Owned Elements</h3>
+    <ul class="nav nav-list">
+        
+        <li><a href='6e30b4a3243da16d9fb4763bf578f2ad.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(WeaponLocation—Weapon)</a></li>
+        
+    </ul>
+</section>
+
 
 
     </div>

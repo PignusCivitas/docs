@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Visitante</title>
+    <title>Visitor</title>
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic|Source+Code+Pro:300,400,700' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="../assets/css/bootstrap.css">
 <link rel="stylesheet" href="../assets/css/jquery.bonsai.css">
@@ -18,7 +18,7 @@
 
       <!-- Name Title -->
 
-      <h1>Visitante</h1>
+      <h1>Visitor</h1>
 
       <!-- Type and Stereotype -->
 
@@ -43,7 +43,7 @@
           <span class="label label-info"><a href='c0e47a10d7e94bde6198b9a6b050307c.html'><span class='node-icon staruml-icon icon-ERDDataModel'></span>Data Model1</a></span>
         
           <span>::</span>
-          <span class="label label-info"><a href='3f15827e1aff76e82b3c62fec553d04e.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Visitante</a></span>
+          <span class="label label-info"><a href='3f15827e1aff76e82b3c62fec553d04e.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Visitor</a></span>
         
       </section>
 
@@ -194,6 +194,116 @@
             <th width="10%">Unique</th>
           </tr>
           
+          <tr>
+            <td><a href="c2489d76f5dffaace50383bf09298b8a.html">id</a></td>
+            <td>INTEGER(15)</td>
+            <td><span class='label label-info'>true</span></td>
+            <td><span class='label label-info'>false</span></td>
+            <td>
+              
+              <span class='label label-info'>null</span>
+            </td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+          </tr>
+          
+          <tr>
+            <td><a href="3eb5dff57baf1fdaf18ef0eb8e77ea1d.html">checkin_date</a></td>
+            <td>DATE</td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+            <td>
+              
+              <span class='label label-info'>null</span>
+            </td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+          </tr>
+          
+          <tr>
+            <td><a href="a0378ffbe2f22610751a0583c08c4ef1.html">checkout_date</a></td>
+            <td>DATE</td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+            <td>
+              
+              <span class='label label-info'>null</span>
+            </td>
+            <td><span class='label label-info'>true</span></td>
+            <td><span class='label label-info'>false</span></td>
+          </tr>
+          
+          <tr>
+            <td><a href="ce05ba476478d54ade4663fdf9c88b19.html">notes</a></td>
+            <td>VARCHAR(200)</td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+            <td>
+              
+              <span class='label label-info'>null</span>
+            </td>
+            <td><span class='label label-info'>true</span></td>
+            <td><span class='label label-info'>false</span></td>
+          </tr>
+          
+          <tr>
+            <td><a href="56120f3f806cd2877990117699752602.html">destination</a></td>
+            <td>VARCHAR(20)</td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+            <td>
+              
+              <span class='label label-info'>null</span>
+            </td>
+            <td><span class='label label-info'>true</span></td>
+            <td><span class='label label-info'>false</span></td>
+          </tr>
+          
+          <tr>
+            <td><a href="1c2142ea873d01d1b4064f7c07a34e18.html">vehicle_id</a></td>
+            <td>INTEGER(15)</td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>true</span></td>
+            <td>
+              
+                <a href='789c532d1aed7725b39713f2ef835ac8.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Vehicle</a> ::
+              
+              <a href='0d76c7f92ba2577d648770d145066c61.html'><span class='node-icon staruml-icon icon-ERDColumn'></span>id</a>
+            </td>
+            <td><span class='label label-info'>true</span></td>
+            <td><span class='label label-info'>false</span></td>
+          </tr>
+          
+          <tr>
+            <td><a href="41555be96e51d801a76fe655c0e24ff3.html">community_id</a></td>
+            <td>INTEGER(15)</td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>true</span></td>
+            <td>
+              
+                <a href='2066f9bec22fb8c7c1d990249e00a564.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Community</a> ::
+              
+              <a href='c1f3944fc74ba6d21c7bd00509f074b4.html'><span class='node-icon staruml-icon icon-ERDColumn'></span>id</a>
+            </td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+          </tr>
+          
+          <tr>
+            <td><a href="6b2524d3c3ff4e97b4a108487128065a.html">person_id</a></td>
+            <td>INTEGER(15)</td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>true</span></td>
+            <td>
+              
+                <a href='7e1a7b5ae09447777fa6ee5a5835ec34.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Person</a> ::
+              
+              <a href='e5aa71d7b03811f69acd23d6aef07adc.html'><span class='node-icon staruml-icon icon-ERDColumn'></span>id</a>
+            </td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+          </tr>
+          
         </table>                
       </section>
       
@@ -214,34 +324,42 @@
           
           
           <tr>
-            <td><a href='789c532d1aed7725b39713f2ef835ac8.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Vehículo</a></td>
+            <td><a href='789c532d1aed7725b39713f2ef835ac8.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Vehicle</a></td>
             <td>1</td>
             <td></td>
-            <td><a href='e48bb4afac62deac545e052fe04c445e.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Vehículo—Visitante)</a></td>
+            <td><a href='e48bb4afac62deac545e052fe04c445e.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Vehicle—Visitor)</a></td>
           </tr>
           
           
           <tr>
-            <td><a href='789c532d1aed7725b39713f2ef835ac8.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Vehículo</a></td>
+            <td><a href='789c532d1aed7725b39713f2ef835ac8.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Vehicle</a></td>
             <td>1</td>
             <td></td>
-            <td><a href='742bef81f3c23a8a03007363cb7fa298.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Visitante—Vehículo)</a></td>
+            <td><a href='bb1ebcbb9c4081bbd1bc5e7c9be05f92.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Vehicle—Visitor)</a></td>
           </tr>
           
           
           <tr>
-            <td><a href='7e1a7b5ae09447777fa6ee5a5835ec34.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Persona</a></td>
+            <td><a href='789c532d1aed7725b39713f2ef835ac8.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Vehicle</a></td>
             <td>1</td>
             <td></td>
-            <td><a href='3f25e7cd77cc3ebf2f14d6e385015f14.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Visitante—Persona)</a></td>
+            <td><a href='742bef81f3c23a8a03007363cb7fa298.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Visitor—Vehicle)</a></td>
           </tr>
           
           
           <tr>
-            <td><a href='2066f9bec22fb8c7c1d990249e00a564.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Comunidad</a></td>
+            <td><a href='7e1a7b5ae09447777fa6ee5a5835ec34.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Person</a></td>
             <td>1</td>
             <td></td>
-            <td><a href='de17e6277fdf42ddda6683fd955d5722.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Comunidad—Visitante)</a></td>
+            <td><a href='3f25e7cd77cc3ebf2f14d6e385015f14.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Visitor—Person)</a></td>
+          </tr>
+          
+          
+          <tr>
+            <td><a href='2066f9bec22fb8c7c1d990249e00a564.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Community</a></td>
+            <td>1</td>
+            <td></td>
+            <td><a href='de17e6277fdf42ddda6683fd955d5722.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Community—Visitor)</a></td>
           </tr>
           
         </table>                
@@ -275,7 +393,7 @@
     
     <tr>
         <td>name</td>
-        <td>Visitante</td>
+        <td>Visitor</td>
     </tr>
     
     
@@ -308,13 +426,15 @@
     <h3>Relationships</h3>
     <ul class="nav nav-list">
         
-        <li><a href='e48bb4afac62deac545e052fe04c445e.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Vehículo—Visitante)</a></li>
+        <li><a href='e48bb4afac62deac545e052fe04c445e.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Vehicle—Visitor)</a></li>
         
-        <li><a href='742bef81f3c23a8a03007363cb7fa298.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Visitante—Vehículo)</a></li>
+        <li><a href='bb1ebcbb9c4081bbd1bc5e7c9be05f92.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Vehicle—Visitor)</a></li>
         
-        <li><a href='3f25e7cd77cc3ebf2f14d6e385015f14.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Visitante—Persona)</a></li>
+        <li><a href='742bef81f3c23a8a03007363cb7fa298.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Visitor—Vehicle)</a></li>
         
-        <li><a href='de17e6277fdf42ddda6683fd955d5722.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Comunidad—Visitante)</a></li>
+        <li><a href='3f25e7cd77cc3ebf2f14d6e385015f14.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Visitor—Person)</a></li>
+        
+        <li><a href='de17e6277fdf42ddda6683fd955d5722.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Community—Visitor)</a></li>
         
     </ul>
 </section>
@@ -329,9 +449,9 @@
     <h3>Owned Elements</h3>
     <ul class="nav nav-list">
         
-        <li><a href='742bef81f3c23a8a03007363cb7fa298.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Visitante—Vehículo)</a></li>
+        <li><a href='742bef81f3c23a8a03007363cb7fa298.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Visitor—Vehicle)</a></li>
         
-        <li><a href='3f25e7cd77cc3ebf2f14d6e385015f14.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Visitante—Persona)</a></li>
+        <li><a href='3f25e7cd77cc3ebf2f14d6e385015f14.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Visitor—Person)</a></li>
         
     </ul>
 </section>

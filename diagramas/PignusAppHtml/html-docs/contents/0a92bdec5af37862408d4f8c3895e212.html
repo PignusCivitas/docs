@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Agente seguridad</title>
+    <title>SecurityAgent</title>
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic|Source+Code+Pro:300,400,700' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="../assets/css/bootstrap.css">
 <link rel="stylesheet" href="../assets/css/jquery.bonsai.css">
@@ -18,7 +18,7 @@
 
       <!-- Name Title -->
 
-      <h1>Agente seguridad</h1>
+      <h1>SecurityAgent</h1>
 
       <!-- Type and Stereotype -->
 
@@ -43,7 +43,7 @@
           <span class="label label-info"><a href='c0e47a10d7e94bde6198b9a6b050307c.html'><span class='node-icon staruml-icon icon-ERDDataModel'></span>Data Model1</a></span>
         
           <span>::</span>
-          <span class="label label-info"><a href='0a92bdec5af37862408d4f8c3895e212.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Agente seguridad</a></span>
+          <span class="label label-info"><a href='0a92bdec5af37862408d4f8c3895e212.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>SecurityAgent</a></span>
         
       </section>
 
@@ -246,6 +246,96 @@
             <td><span class='label label-info'>false</span></td>
           </tr>
           
+          <tr>
+            <td><a href="21dfe81b56b9f8e26ec12d7ce7fea609.html">security_company_id</a></td>
+            <td>INTEGER(15)</td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>true</span></td>
+            <td>
+              
+                <a href='6590d91593a46f34a7ab4eb8ac9eb299.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>SecurityCompany</a> ::
+              
+              <a href='0f972952114d546722fcf1e7186c9ea6.html'><span class='node-icon staruml-icon icon-ERDColumn'></span>id</a>
+            </td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+          </tr>
+          
+          <tr>
+            <td><a href="3cae119325792c5d224267cb8e62daba.html">security_agent_id</a></td>
+            <td>INTEGER(15)</td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>true</span></td>
+            <td>
+              
+                <a href='0a92bdec5af37862408d4f8c3895e212.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>SecurityAgent</a> ::
+              
+              <a href='4f704d3c51d53ced5dab96da1c6882e9.html'><span class='node-icon staruml-icon icon-ERDColumn'></span>id</a>
+            </td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+          </tr>
+          
+          <tr>
+            <td><a href="4dae4ff3ec6fe79cc12978fd15158a65.html">weapon_id</a></td>
+            <td>INTEGER(15)</td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>true</span></td>
+            <td>
+              
+                <a href='86793f032c0c01d2c17896d597fc2769.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Weapon</a> ::
+              
+              <a href='5dead54373089373ac95df9c3a101c4c.html'><span class='node-icon staruml-icon icon-ERDColumn'></span>id</a>
+            </td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+          </tr>
+          
+          <tr>
+            <td><a href="a3bf85d66217170ea5ec830cad4a4fe3.html">agent_type_id</a></td>
+            <td>INTEGER(4)</td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>true</span></td>
+            <td>
+              
+                <a href='26f72c876683cc088e79aa822dba23f8.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>AgentType</a> ::
+              
+              <a href='f817bb7eb6fb001fc8dfefedb954aa74.html'><span class='node-icon staruml-icon icon-ERDColumn'></span>id</a>
+            </td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+          </tr>
+          
+          <tr>
+            <td><a href="f0349baad891dab1fc2945d18e13f22d.html">schedule_id</a></td>
+            <td>INTEGER(15)</td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>true</span></td>
+            <td>
+              
+                <a href='bc71dfa3310ac22955d665e86a82e454.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Schedule</a> ::
+              
+              <a href='065985c34530a51d8123db5a7e0eca43.html'><span class='node-icon staruml-icon icon-ERDColumn'></span>id</a>
+            </td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+          </tr>
+          
+          <tr>
+            <td><a href="4e327b8bfbfaa3b4b90dd35ae6668064.html">person_id</a></td>
+            <td>INTEGER(15)</td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>true</span></td>
+            <td>
+              
+                <a href='7e1a7b5ae09447777fa6ee5a5835ec34.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Person</a> ::
+              
+              <a href='e5aa71d7b03811f69acd23d6aef07adc.html'><span class='node-icon staruml-icon icon-ERDColumn'></span>id</a>
+            </td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+          </tr>
+          
         </table>                
       </section>
       
@@ -266,82 +356,82 @@
           
           
           <tr>
-            <td><a href='7e1a7b5ae09447777fa6ee5a5835ec34.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Persona</a></td>
+            <td><a href='7e1a7b5ae09447777fa6ee5a5835ec34.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Person</a></td>
             <td>1</td>
             <td></td>
-            <td><a href='c0fb60d26983cfd151e08061f1e4dbac.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Persona—Agente seguridad)</a></td>
+            <td><a href='c0fb60d26983cfd151e08061f1e4dbac.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Person—SecurityAgent)</a></td>
           </tr>
           
           
           <tr>
-            <td><a href='f15f89246abfa42d0d992ba41bdbd370.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Contratos</a></td>
+            <td><a href='f15f89246abfa42d0d992ba41bdbd370.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Contract</a></td>
             <td>0..*</td>
             <td></td>
-            <td><a href='d5ccbf757bff03a13a4db568cdf07d3a.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Agente seguridad—Contratos)</a></td>
+            <td><a href='d5ccbf757bff03a13a4db568cdf07d3a.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(SecurityAgent—Contract)</a></td>
           </tr>
           
           
           <tr>
-            <td><a href='0a92bdec5af37862408d4f8c3895e212.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Agente seguridad</a></td>
+            <td><a href='0a92bdec5af37862408d4f8c3895e212.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>SecurityAgent</a></td>
             <td>0..*</td>
             <td></td>
-            <td><a href='6997c950c0676ab1a4fe1ff663ef2e5a.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>Supervisa (Agente seguridad—Agente seguridad)</a></td>
+            <td><a href='6997c950c0676ab1a4fe1ff663ef2e5a.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>Supervisa (SecurityAgent—SecurityAgent)</a></td>
           </tr>
           
           
           <tr>
-            <td><a href='26f72c876683cc088e79aa822dba23f8.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Tipo agente</a></td>
+            <td><a href='26f72c876683cc088e79aa822dba23f8.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>AgentType</a></td>
             <td>0..*</td>
             <td></td>
-            <td><a href='21f84383211cbe1ac9ed9a392f8e5a22.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Agente seguridad—Tipo agente)</a></td>
+            <td><a href='21f84383211cbe1ac9ed9a392f8e5a22.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(SecurityAgent—AgentType)</a></td>
           </tr>
           
           
           <tr>
-            <td><a href='86793f032c0c01d2c17896d597fc2769.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Armamento</a></td>
+            <td><a href='86793f032c0c01d2c17896d597fc2769.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Weapon</a></td>
             <td>0..*</td>
             <td></td>
-            <td><a href='ace8eef4e2479b6ffd9960cd52ba18b1.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Agente seguridad—Armamento)</a></td>
+            <td><a href='ace8eef4e2479b6ffd9960cd52ba18b1.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(SecurityAgent—Weapon)</a></td>
           </tr>
           
           
           <tr>
-            <td><a href='bc71dfa3310ac22955d665e86a82e454.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Turno</a></td>
+            <td><a href='bc71dfa3310ac22955d665e86a82e454.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Schedule</a></td>
             <td>0..*</td>
             <td></td>
-            <td><a href='bed971850313341ddba2cf5f9f03a7ce.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Agente seguridad—Turno)</a></td>
+            <td><a href='bed971850313341ddba2cf5f9f03a7ce.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(SecurityAgent—Schedule)</a></td>
           </tr>
           
           
           <tr>
-            <td><a href='c23cf2356a66aad4e2f67b7ccda98a77.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Eventos</a></td>
+            <td><a href='c23cf2356a66aad4e2f67b7ccda98a77.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Event</a></td>
             <td>0..*</td>
             <td></td>
-            <td><a href='647b8b3982b7d7e01cb63811ce255c70.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Agente seguridad—Eventos)</a></td>
+            <td><a href='647b8b3982b7d7e01cb63811ce255c70.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(SecurityAgent—Event)</a></td>
           </tr>
           
           
           <tr>
-            <td><a href='b2450bf533688950ee79e629d02c6b22.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Notificaciones</a></td>
-            <td>0..*</td>
-            <td></td>
-            <td><a href='c68d44bd52d3cf1c9684d3d422be66a4.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Agente seguridad—Notificaciones)</a></td>
-          </tr>
-          
-          
-          <tr>
-            <td><a href='6590d91593a46f34a7ab4eb8ac9eb299.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Empresa seguridad</a></td>
+            <td><a href='6590d91593a46f34a7ab4eb8ac9eb299.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>SecurityCompany</a></td>
             <td>1</td>
             <td></td>
-            <td><a href='fef19c3bc498e8a621831df82f5bf624.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Empresa seguridad—Agente seguridad)</a></td>
+            <td><a href='fef19c3bc498e8a621831df82f5bf624.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(SecurityCompany—SecurityAgent)</a></td>
           </tr>
           
           
           <tr>
-            <td><a href='7b8faea5842d5420aeb8488689db769f.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Supervisor</a></td>
+            <td><a href='bc71dfa3310ac22955d665e86a82e454.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Schedule</a></td>
             <td>1</td>
             <td></td>
-            <td><a href='aaa4000a888d5c0997a4a1efff1a5155.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Supervisor—Agente seguridad)</a></td>
+            <td><a href='ca842f4e027cec37b27dd9d4d0e5cbae.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Schedule—SecurityAgent)</a></td>
+          </tr>
+          
+          
+          <tr>
+            <td><a href='26f72c876683cc088e79aa822dba23f8.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>AgentType</a></td>
+            <td>1</td>
+            <td></td>
+            <td><a href='3da38dc281fc5044de66bfab031561c0.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(AgentType—SecurityAgent)</a></td>
           </tr>
           
         </table>                
@@ -375,7 +465,7 @@
     
     <tr>
         <td>name</td>
-        <td>Agente seguridad</td>
+        <td>SecurityAgent</td>
     </tr>
     
     
@@ -408,25 +498,25 @@
     <h3>Relationships</h3>
     <ul class="nav nav-list">
         
-        <li><a href='c0fb60d26983cfd151e08061f1e4dbac.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Persona—Agente seguridad)</a></li>
+        <li><a href='c0fb60d26983cfd151e08061f1e4dbac.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Person—SecurityAgent)</a></li>
         
-        <li><a href='d5ccbf757bff03a13a4db568cdf07d3a.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Agente seguridad—Contratos)</a></li>
+        <li><a href='d5ccbf757bff03a13a4db568cdf07d3a.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(SecurityAgent—Contract)</a></li>
         
-        <li><a href='6997c950c0676ab1a4fe1ff663ef2e5a.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>Supervisa (Agente seguridad—Agente seguridad)</a></li>
+        <li><a href='6997c950c0676ab1a4fe1ff663ef2e5a.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>Supervisa (SecurityAgent—SecurityAgent)</a></li>
         
-        <li><a href='21f84383211cbe1ac9ed9a392f8e5a22.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Agente seguridad—Tipo agente)</a></li>
+        <li><a href='21f84383211cbe1ac9ed9a392f8e5a22.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(SecurityAgent—AgentType)</a></li>
         
-        <li><a href='ace8eef4e2479b6ffd9960cd52ba18b1.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Agente seguridad—Armamento)</a></li>
+        <li><a href='ace8eef4e2479b6ffd9960cd52ba18b1.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(SecurityAgent—Weapon)</a></li>
         
-        <li><a href='bed971850313341ddba2cf5f9f03a7ce.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Agente seguridad—Turno)</a></li>
+        <li><a href='bed971850313341ddba2cf5f9f03a7ce.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(SecurityAgent—Schedule)</a></li>
         
-        <li><a href='647b8b3982b7d7e01cb63811ce255c70.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Agente seguridad—Eventos)</a></li>
+        <li><a href='647b8b3982b7d7e01cb63811ce255c70.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(SecurityAgent—Event)</a></li>
         
-        <li><a href='c68d44bd52d3cf1c9684d3d422be66a4.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Agente seguridad—Notificaciones)</a></li>
+        <li><a href='fef19c3bc498e8a621831df82f5bf624.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(SecurityCompany—SecurityAgent)</a></li>
         
-        <li><a href='fef19c3bc498e8a621831df82f5bf624.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Empresa seguridad—Agente seguridad)</a></li>
+        <li><a href='ca842f4e027cec37b27dd9d4d0e5cbae.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Schedule—SecurityAgent)</a></li>
         
-        <li><a href='aaa4000a888d5c0997a4a1efff1a5155.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Supervisor—Agente seguridad)</a></li>
+        <li><a href='3da38dc281fc5044de66bfab031561c0.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(AgentType—SecurityAgent)</a></li>
         
     </ul>
 </section>
@@ -441,19 +531,17 @@
     <h3>Owned Elements</h3>
     <ul class="nav nav-list">
         
-        <li><a href='d5ccbf757bff03a13a4db568cdf07d3a.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Agente seguridad—Contratos)</a></li>
+        <li><a href='d5ccbf757bff03a13a4db568cdf07d3a.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(SecurityAgent—Contract)</a></li>
         
-        <li><a href='6997c950c0676ab1a4fe1ff663ef2e5a.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>Supervisa (Agente seguridad—Agente seguridad)</a></li>
+        <li><a href='6997c950c0676ab1a4fe1ff663ef2e5a.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>Supervisa (SecurityAgent—SecurityAgent)</a></li>
         
-        <li><a href='21f84383211cbe1ac9ed9a392f8e5a22.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Agente seguridad—Tipo agente)</a></li>
+        <li><a href='21f84383211cbe1ac9ed9a392f8e5a22.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(SecurityAgent—AgentType)</a></li>
         
-        <li><a href='ace8eef4e2479b6ffd9960cd52ba18b1.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Agente seguridad—Armamento)</a></li>
+        <li><a href='ace8eef4e2479b6ffd9960cd52ba18b1.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(SecurityAgent—Weapon)</a></li>
         
-        <li><a href='bed971850313341ddba2cf5f9f03a7ce.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Agente seguridad—Turno)</a></li>
+        <li><a href='bed971850313341ddba2cf5f9f03a7ce.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(SecurityAgent—Schedule)</a></li>
         
-        <li><a href='647b8b3982b7d7e01cb63811ce255c70.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Agente seguridad—Eventos)</a></li>
-        
-        <li><a href='c68d44bd52d3cf1c9684d3d422be66a4.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Agente seguridad—Notificaciones)</a></li>
+        <li><a href='647b8b3982b7d7e01cb63811ce255c70.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(SecurityAgent—Event)</a></li>
         
     </ul>
 </section>
