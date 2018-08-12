@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Eventos</title>
+    <title>Event</title>
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic|Source+Code+Pro:300,400,700' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="../assets/css/bootstrap.css">
 <link rel="stylesheet" href="../assets/css/jquery.bonsai.css">
@@ -18,7 +18,7 @@
 
       <!-- Name Title -->
 
-      <h1>Eventos</h1>
+      <h1>Event</h1>
 
       <!-- Type and Stereotype -->
 
@@ -43,7 +43,7 @@
           <span class="label label-info"><a href='c0e47a10d7e94bde6198b9a6b050307c.html'><span class='node-icon staruml-icon icon-ERDDataModel'></span>Data Model1</a></span>
         
           <span>::</span>
-          <span class="label label-info"><a href='c23cf2356a66aad4e2f67b7ccda98a77.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Eventos</a></span>
+          <span class="label label-info"><a href='c23cf2356a66aad4e2f67b7ccda98a77.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Event</a></span>
         
       </section>
 
@@ -376,6 +376,51 @@
             <td><span class='label label-info'>false</span></td>
           </tr>
           
+          <tr>
+            <td><a href="f1e005839b364181f6cbb6b3f355743a.html">community_id</a></td>
+            <td>INTEGER(15)</td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>true</span></td>
+            <td>
+              
+                <a href='2066f9bec22fb8c7c1d990249e00a564.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Community</a> ::
+              
+              <a href='c1f3944fc74ba6d21c7bd00509f074b4.html'><span class='node-icon staruml-icon icon-ERDColumn'></span>id</a>
+            </td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+          </tr>
+          
+          <tr>
+            <td><a href="f7d07cca6ebe2ad03f5f3f82ce2aba5b.html">event_type_id</a></td>
+            <td>INTEGER(4)</td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>true</span></td>
+            <td>
+              
+                <a href='05b76d1e8439683f850102540616e90a.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>EventType</a> ::
+              
+              <a href='646d9933eef0218566b098118766d253.html'><span class='node-icon staruml-icon icon-ERDColumn'></span>id</a>
+            </td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+          </tr>
+          
+          <tr>
+            <td><a href="d5ea989f504ba933d82dbedbf98309ba.html">secutity_agent_id</a></td>
+            <td>INTEGER(15)</td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>true</span></td>
+            <td>
+              
+                <a href='0a92bdec5af37862408d4f8c3895e212.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>SecurityAgent</a> ::
+              
+              <a href='4f704d3c51d53ced5dab96da1c6882e9.html'><span class='node-icon staruml-icon icon-ERDColumn'></span>id</a>
+            </td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+          </tr>
+          
         </table>                
       </section>
       
@@ -396,42 +441,42 @@
           
           
           <tr>
-            <td><a href='0a92bdec5af37862408d4f8c3895e212.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Agente seguridad</a></td>
+            <td><a href='0a92bdec5af37862408d4f8c3895e212.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>SecurityAgent</a></td>
             <td>1</td>
             <td></td>
-            <td><a href='647b8b3982b7d7e01cb63811ce255c70.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Agente seguridad—Eventos)</a></td>
+            <td><a href='647b8b3982b7d7e01cb63811ce255c70.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(SecurityAgent—Event)</a></td>
           </tr>
           
           
           <tr>
-            <td><a href='2066f9bec22fb8c7c1d990249e00a564.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Comunidad</a></td>
+            <td><a href='2066f9bec22fb8c7c1d990249e00a564.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Community</a></td>
             <td>1</td>
             <td></td>
-            <td><a href='51b2d3bf784feaa64e069cb6a704868c.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Comunidad—Eventos)</a></td>
+            <td><a href='51b2d3bf784feaa64e069cb6a704868c.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Community—Event)</a></td>
           </tr>
           
           
           <tr>
-            <td><a href='2066f9bec22fb8c7c1d990249e00a564.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Comunidad</a></td>
+            <td><a href='2066f9bec22fb8c7c1d990249e00a564.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Community</a></td>
             <td>1</td>
             <td></td>
-            <td><a href='48c220d5ce2978663c6af28fad074a51.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Comunidad—Eventos)</a></td>
+            <td><a href='48c220d5ce2978663c6af28fad074a51.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Community—Event)</a></td>
           </tr>
           
           
           <tr>
-            <td><a href='05b76d1e8439683f850102540616e90a.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Tipo novedad</a></td>
+            <td><a href='05b76d1e8439683f850102540616e90a.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>EventType</a></td>
             <td>1</td>
             <td></td>
-            <td><a href='1845bfff38c06831eb1b6ae6fd3b6c78.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Tipo novedad—Eventos)</a></td>
+            <td><a href='1845bfff38c06831eb1b6ae6fd3b6c78.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(EventType—Event)</a></td>
           </tr>
           
           
           <tr>
-            <td><a href='05b76d1e8439683f850102540616e90a.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Tipo novedad</a></td>
+            <td><a href='05b76d1e8439683f850102540616e90a.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>EventType</a></td>
             <td>1</td>
             <td></td>
-            <td><a href='2d8442d3f8a8644a0db43dd6a8ef0301.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Tipo novedad—Eventos)</a></td>
+            <td><a href='2d8442d3f8a8644a0db43dd6a8ef0301.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(EventType—Event)</a></td>
           </tr>
           
         </table>                
@@ -465,7 +510,7 @@
     
     <tr>
         <td>name</td>
-        <td>Eventos</td>
+        <td>Event</td>
     </tr>
     
     
@@ -498,15 +543,15 @@
     <h3>Relationships</h3>
     <ul class="nav nav-list">
         
-        <li><a href='647b8b3982b7d7e01cb63811ce255c70.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Agente seguridad—Eventos)</a></li>
+        <li><a href='647b8b3982b7d7e01cb63811ce255c70.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(SecurityAgent—Event)</a></li>
         
-        <li><a href='51b2d3bf784feaa64e069cb6a704868c.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Comunidad—Eventos)</a></li>
+        <li><a href='51b2d3bf784feaa64e069cb6a704868c.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Community—Event)</a></li>
         
-        <li><a href='48c220d5ce2978663c6af28fad074a51.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Comunidad—Eventos)</a></li>
+        <li><a href='48c220d5ce2978663c6af28fad074a51.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Community—Event)</a></li>
         
-        <li><a href='1845bfff38c06831eb1b6ae6fd3b6c78.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Tipo novedad—Eventos)</a></li>
+        <li><a href='1845bfff38c06831eb1b6ae6fd3b6c78.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(EventType—Event)</a></li>
         
-        <li><a href='2d8442d3f8a8644a0db43dd6a8ef0301.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Tipo novedad—Eventos)</a></li>
+        <li><a href='2d8442d3f8a8644a0db43dd6a8ef0301.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(EventType—Event)</a></li>
         
     </ul>
 </section>

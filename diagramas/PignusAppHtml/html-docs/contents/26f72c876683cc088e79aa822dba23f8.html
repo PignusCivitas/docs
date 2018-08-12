@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Tipo agente</title>
+    <title>AgentType</title>
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic|Source+Code+Pro:300,400,700' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="../assets/css/bootstrap.css">
 <link rel="stylesheet" href="../assets/css/jquery.bonsai.css">
@@ -18,7 +18,7 @@
 
       <!-- Name Title -->
 
-      <h1>Tipo agente</h1>
+      <h1>AgentType</h1>
 
       <!-- Type and Stereotype -->
 
@@ -43,7 +43,7 @@
           <span class="label label-info"><a href='c0e47a10d7e94bde6198b9a6b050307c.html'><span class='node-icon staruml-icon icon-ERDDataModel'></span>Data Model1</a></span>
         
           <span>::</span>
-          <span class="label label-info"><a href='26f72c876683cc088e79aa822dba23f8.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Tipo agente</a></span>
+          <span class="label label-info"><a href='26f72c876683cc088e79aa822dba23f8.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>AgentType</a></span>
         
       </section>
 
@@ -253,10 +253,18 @@
           
           
           <tr>
-            <td><a href='0a92bdec5af37862408d4f8c3895e212.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Agente seguridad</a></td>
+            <td><a href='0a92bdec5af37862408d4f8c3895e212.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>SecurityAgent</a></td>
             <td>0..*</td>
             <td></td>
-            <td><a href='21f84383211cbe1ac9ed9a392f8e5a22.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Agente seguridad—Tipo agente)</a></td>
+            <td><a href='21f84383211cbe1ac9ed9a392f8e5a22.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(SecurityAgent—AgentType)</a></td>
+          </tr>
+          
+          
+          <tr>
+            <td><a href='0a92bdec5af37862408d4f8c3895e212.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>SecurityAgent</a></td>
+            <td>0..*</td>
+            <td></td>
+            <td><a href='3da38dc281fc5044de66bfab031561c0.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(AgentType—SecurityAgent)</a></td>
           </tr>
           
         </table>                
@@ -290,7 +298,7 @@
     
     <tr>
         <td>name</td>
-        <td>Tipo agente</td>
+        <td>AgentType</td>
     </tr>
     
     
@@ -323,7 +331,9 @@
     <h3>Relationships</h3>
     <ul class="nav nav-list">
         
-        <li><a href='21f84383211cbe1ac9ed9a392f8e5a22.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Agente seguridad—Tipo agente)</a></li>
+        <li><a href='21f84383211cbe1ac9ed9a392f8e5a22.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(SecurityAgent—AgentType)</a></li>
+        
+        <li><a href='3da38dc281fc5044de66bfab031561c0.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(AgentType—SecurityAgent)</a></li>
         
     </ul>
 </section>
@@ -334,6 +344,15 @@
 
       
       
+<section class="element-list">
+    <h3>Owned Elements</h3>
+    <ul class="nav nav-list">
+        
+        <li><a href='3da38dc281fc5044de66bfab031561c0.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(AgentType—SecurityAgent)</a></li>
+        
+    </ul>
+</section>
+
 
 
     </div>

@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Vehículo</title>
+    <title>Vehicle</title>
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic|Source+Code+Pro:300,400,700' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="../assets/css/bootstrap.css">
 <link rel="stylesheet" href="../assets/css/jquery.bonsai.css">
@@ -18,7 +18,7 @@
 
       <!-- Name Title -->
 
-      <h1>Vehículo</h1>
+      <h1>Vehicle</h1>
 
       <!-- Type and Stereotype -->
 
@@ -43,7 +43,7 @@
           <span class="label label-info"><a href='c0e47a10d7e94bde6198b9a6b050307c.html'><span class='node-icon staruml-icon icon-ERDDataModel'></span>Data Model1</a></span>
         
           <span>::</span>
-          <span class="label label-info"><a href='789c532d1aed7725b39713f2ef835ac8.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Vehículo</a></span>
+          <span class="label label-info"><a href='789c532d1aed7725b39713f2ef835ac8.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Vehicle</a></span>
         
       </section>
 
@@ -298,6 +298,21 @@
             <td><span class='label label-info'>false</span></td>
           </tr>
           
+          <tr>
+            <td><a href="eaae3757d3421340a0bebf4bc168f91c.html">vehicle_type_id</a></td>
+            <td>INTEGER(4)</td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>true</span></td>
+            <td>
+              
+                <a href='a73e2f6c9fa760de0eb02804cd9bd316.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>VehicleType</a> ::
+              
+              <a href='82d079bf41edb25cf46dc8f40d5097c4.html'><span class='node-icon staruml-icon icon-ERDColumn'></span>id</a>
+            </td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+          </tr>
+          
         </table>                
       </section>
       
@@ -318,74 +333,90 @@
           
           
           <tr>
-            <td><a href='58f238becbe73b7581e878b318b8c644.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Registro Vehículos</a></td>
+            <td><a href='58f238becbe73b7581e878b318b8c644.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>CheckVehicle</a></td>
             <td>0..*</td>
             <td></td>
-            <td><a href='9f3bea668300546e06ed160b04802dae.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Vehículo—Registro Vehículos)</a></td>
+            <td><a href='9f3bea668300546e06ed160b04802dae.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Vehicle—CheckVehicle)</a></td>
           </tr>
           
           
           <tr>
-            <td><a href='58f238becbe73b7581e878b318b8c644.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Registro Vehículos</a></td>
+            <td><a href='58f238becbe73b7581e878b318b8c644.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>CheckVehicle</a></td>
             <td>0..*</td>
             <td></td>
-            <td><a href='c20cfe5e963bd8f13f60385774d3caf2.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Vehículo—Registro Vehículos)</a></td>
+            <td><a href='c20cfe5e963bd8f13f60385774d3caf2.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Vehicle—CheckVehicle)</a></td>
           </tr>
           
           
           <tr>
-            <td><a href='3f15827e1aff76e82b3c62fec553d04e.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Visitante</a></td>
+            <td><a href='3f15827e1aff76e82b3c62fec553d04e.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Visitor</a></td>
             <td>0..*</td>
             <td></td>
-            <td><a href='e48bb4afac62deac545e052fe04c445e.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Vehículo—Visitante)</a></td>
+            <td><a href='e48bb4afac62deac545e052fe04c445e.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Vehicle—Visitor)</a></td>
           </tr>
           
           
           <tr>
-            <td><a href='b302349fd2516dd762077af793fbc094.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Residente</a></td>
+            <td><a href='b302349fd2516dd762077af793fbc094.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Member</a></td>
             <td>0..*</td>
             <td></td>
-            <td><a href='9814f7666496a886de96996cb909ebad.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Vehículo—Residente)</a></td>
+            <td><a href='9814f7666496a886de96996cb909ebad.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Vehicle—Member)</a></td>
           </tr>
           
           
           <tr>
-            <td><a href='a73e2f6c9fa760de0eb02804cd9bd316.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Tipo Vehículo</a></td>
+            <td><a href='3f15827e1aff76e82b3c62fec553d04e.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Visitor</a></td>
             <td>1</td>
             <td></td>
-            <td><a href='b4e4fa298895de484090b152ba9e6f7e.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Tipo Vehículo—Vehículo)</a></td>
+            <td><a href='bb1ebcbb9c4081bbd1bc5e7c9be05f92.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Vehicle—Visitor)</a></td>
           </tr>
           
           
           <tr>
-            <td><a href='b302349fd2516dd762077af793fbc094.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Residente</a></td>
+            <td><a href='a73e2f6c9fa760de0eb02804cd9bd316.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>VehicleType</a></td>
             <td>1</td>
             <td></td>
-            <td><a href='f59e4ceddc34562c8922e544928f4c2a.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Residente—Vehículo)</a></td>
+            <td><a href='b4e4fa298895de484090b152ba9e6f7e.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(VehicleType—Vehicle)</a></td>
           </tr>
           
           
           <tr>
-            <td><a href='3f15827e1aff76e82b3c62fec553d04e.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Visitante</a></td>
+            <td><a href='a73e2f6c9fa760de0eb02804cd9bd316.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>VehicleType</a></td>
             <td>1</td>
             <td></td>
-            <td><a href='742bef81f3c23a8a03007363cb7fa298.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Visitante—Vehículo)</a></td>
+            <td><a href='7e7a470eaf5e3e380fda666baaeb92e7.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(VehicleType—Vehicle)</a></td>
           </tr>
           
           
           <tr>
-            <td><a href='58f238becbe73b7581e878b318b8c644.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Registro Vehículos</a></td>
+            <td><a href='b302349fd2516dd762077af793fbc094.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Member</a></td>
             <td>1</td>
             <td></td>
-            <td><a href='61064f6ec764f1be35ad167aac505b63.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Registro Vehículos—Vehículo)</a></td>
+            <td><a href='f59e4ceddc34562c8922e544928f4c2a.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Member—Vehicle)</a></td>
           </tr>
           
           
           <tr>
-            <td><a href='58f238becbe73b7581e878b318b8c644.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Registro Vehículos</a></td>
+            <td><a href='3f15827e1aff76e82b3c62fec553d04e.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Visitor</a></td>
             <td>1</td>
             <td></td>
-            <td><a href='1a1b95fdc99356de55b481698fce0112.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Registro Vehículos—Vehículo)</a></td>
+            <td><a href='742bef81f3c23a8a03007363cb7fa298.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Visitor—Vehicle)</a></td>
+          </tr>
+          
+          
+          <tr>
+            <td><a href='58f238becbe73b7581e878b318b8c644.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>CheckVehicle</a></td>
+            <td>1</td>
+            <td></td>
+            <td><a href='61064f6ec764f1be35ad167aac505b63.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(CheckVehicle—Vehicle)</a></td>
+          </tr>
+          
+          
+          <tr>
+            <td><a href='58f238becbe73b7581e878b318b8c644.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>CheckVehicle</a></td>
+            <td>1</td>
+            <td></td>
+            <td><a href='1a1b95fdc99356de55b481698fce0112.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(CheckVehicle—Vehicle)</a></td>
           </tr>
           
         </table>                
@@ -419,7 +450,7 @@
     
     <tr>
         <td>name</td>
-        <td>Vehículo</td>
+        <td>Vehicle</td>
     </tr>
     
     
@@ -452,23 +483,27 @@
     <h3>Relationships</h3>
     <ul class="nav nav-list">
         
-        <li><a href='9f3bea668300546e06ed160b04802dae.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Vehículo—Registro Vehículos)</a></li>
+        <li><a href='9f3bea668300546e06ed160b04802dae.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Vehicle—CheckVehicle)</a></li>
         
-        <li><a href='c20cfe5e963bd8f13f60385774d3caf2.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Vehículo—Registro Vehículos)</a></li>
+        <li><a href='c20cfe5e963bd8f13f60385774d3caf2.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Vehicle—CheckVehicle)</a></li>
         
-        <li><a href='e48bb4afac62deac545e052fe04c445e.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Vehículo—Visitante)</a></li>
+        <li><a href='e48bb4afac62deac545e052fe04c445e.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Vehicle—Visitor)</a></li>
         
-        <li><a href='9814f7666496a886de96996cb909ebad.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Vehículo—Residente)</a></li>
+        <li><a href='9814f7666496a886de96996cb909ebad.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Vehicle—Member)</a></li>
         
-        <li><a href='b4e4fa298895de484090b152ba9e6f7e.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Tipo Vehículo—Vehículo)</a></li>
+        <li><a href='bb1ebcbb9c4081bbd1bc5e7c9be05f92.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Vehicle—Visitor)</a></li>
         
-        <li><a href='f59e4ceddc34562c8922e544928f4c2a.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Residente—Vehículo)</a></li>
+        <li><a href='b4e4fa298895de484090b152ba9e6f7e.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(VehicleType—Vehicle)</a></li>
         
-        <li><a href='742bef81f3c23a8a03007363cb7fa298.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Visitante—Vehículo)</a></li>
+        <li><a href='7e7a470eaf5e3e380fda666baaeb92e7.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(VehicleType—Vehicle)</a></li>
         
-        <li><a href='61064f6ec764f1be35ad167aac505b63.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Registro Vehículos—Vehículo)</a></li>
+        <li><a href='f59e4ceddc34562c8922e544928f4c2a.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Member—Vehicle)</a></li>
         
-        <li><a href='1a1b95fdc99356de55b481698fce0112.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Registro Vehículos—Vehículo)</a></li>
+        <li><a href='742bef81f3c23a8a03007363cb7fa298.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Visitor—Vehicle)</a></li>
+        
+        <li><a href='61064f6ec764f1be35ad167aac505b63.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(CheckVehicle—Vehicle)</a></li>
+        
+        <li><a href='1a1b95fdc99356de55b481698fce0112.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(CheckVehicle—Vehicle)</a></li>
         
     </ul>
 </section>
@@ -483,13 +518,15 @@
     <h3>Owned Elements</h3>
     <ul class="nav nav-list">
         
-        <li><a href='9f3bea668300546e06ed160b04802dae.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Vehículo—Registro Vehículos)</a></li>
+        <li><a href='9f3bea668300546e06ed160b04802dae.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Vehicle—CheckVehicle)</a></li>
         
-        <li><a href='c20cfe5e963bd8f13f60385774d3caf2.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Vehículo—Registro Vehículos)</a></li>
+        <li><a href='c20cfe5e963bd8f13f60385774d3caf2.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Vehicle—CheckVehicle)</a></li>
         
-        <li><a href='e48bb4afac62deac545e052fe04c445e.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Vehículo—Visitante)</a></li>
+        <li><a href='e48bb4afac62deac545e052fe04c445e.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Vehicle—Visitor)</a></li>
         
-        <li><a href='9814f7666496a886de96996cb909ebad.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Vehículo—Residente)</a></li>
+        <li><a href='9814f7666496a886de96996cb909ebad.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Vehicle—Member)</a></li>
+        
+        <li><a href='bb1ebcbb9c4081bbd1bc5e7c9be05f92.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Vehicle—Visitor)</a></li>
         
     </ul>
 </section>

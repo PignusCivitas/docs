@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Tipo Vehículo</title>
+    <title>VehicleType</title>
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic|Source+Code+Pro:300,400,700' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="../assets/css/bootstrap.css">
 <link rel="stylesheet" href="../assets/css/jquery.bonsai.css">
@@ -18,7 +18,7 @@
 
       <!-- Name Title -->
 
-      <h1>Tipo Vehículo</h1>
+      <h1>VehicleType</h1>
 
       <!-- Type and Stereotype -->
 
@@ -43,7 +43,7 @@
           <span class="label label-info"><a href='c0e47a10d7e94bde6198b9a6b050307c.html'><span class='node-icon staruml-icon icon-ERDDataModel'></span>Data Model1</a></span>
         
           <span>::</span>
-          <span class="label label-info"><a href='a73e2f6c9fa760de0eb02804cd9bd316.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Tipo Vehículo</a></span>
+          <span class="label label-info"><a href='a73e2f6c9fa760de0eb02804cd9bd316.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>VehicleType</a></span>
         
       </section>
 
@@ -240,10 +240,26 @@
           
           
           <tr>
-            <td><a href='789c532d1aed7725b39713f2ef835ac8.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Vehículo</a></td>
+            <td><a href='789c532d1aed7725b39713f2ef835ac8.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Vehicle</a></td>
             <td>1</td>
             <td></td>
-            <td><a href='b4e4fa298895de484090b152ba9e6f7e.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Tipo Vehículo—Vehículo)</a></td>
+            <td><a href='b4e4fa298895de484090b152ba9e6f7e.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(VehicleType—Vehicle)</a></td>
+          </tr>
+          
+          
+          <tr>
+            <td><a href='a73e2f6c9fa760de0eb02804cd9bd316.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>VehicleType</a></td>
+            <td>0..*</td>
+            <td></td>
+            <td><a href='76687d47077320f331fcbb7e60555429.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(VehicleType—VehicleType)</a></td>
+          </tr>
+          
+          
+          <tr>
+            <td><a href='789c532d1aed7725b39713f2ef835ac8.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Vehicle</a></td>
+            <td>0..*</td>
+            <td></td>
+            <td><a href='7e7a470eaf5e3e380fda666baaeb92e7.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(VehicleType—Vehicle)</a></td>
           </tr>
           
         </table>                
@@ -277,7 +293,7 @@
     
     <tr>
         <td>name</td>
-        <td>Tipo Vehículo</td>
+        <td>VehicleType</td>
     </tr>
     
     
@@ -310,7 +326,11 @@
     <h3>Relationships</h3>
     <ul class="nav nav-list">
         
-        <li><a href='b4e4fa298895de484090b152ba9e6f7e.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Tipo Vehículo—Vehículo)</a></li>
+        <li><a href='b4e4fa298895de484090b152ba9e6f7e.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(VehicleType—Vehicle)</a></li>
+        
+        <li><a href='76687d47077320f331fcbb7e60555429.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(VehicleType—VehicleType)</a></li>
+        
+        <li><a href='7e7a470eaf5e3e380fda666baaeb92e7.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(VehicleType—Vehicle)</a></li>
         
     </ul>
 </section>
@@ -325,7 +345,11 @@
     <h3>Owned Elements</h3>
     <ul class="nav nav-list">
         
-        <li><a href='b4e4fa298895de484090b152ba9e6f7e.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Tipo Vehículo—Vehículo)</a></li>
+        <li><a href='b4e4fa298895de484090b152ba9e6f7e.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(VehicleType—Vehicle)</a></li>
+        
+        <li><a href='76687d47077320f331fcbb7e60555429.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(VehicleType—VehicleType)</a></li>
+        
+        <li><a href='7e7a470eaf5e3e380fda666baaeb92e7.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(VehicleType—Vehicle)</a></li>
         
     </ul>
 </section>

@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Armamento</title>
+    <title>Weapon</title>
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic|Source+Code+Pro:300,400,700' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="../assets/css/bootstrap.css">
 <link rel="stylesheet" href="../assets/css/jquery.bonsai.css">
@@ -18,7 +18,7 @@
 
       <!-- Name Title -->
 
-      <h1>Armamento</h1>
+      <h1>Weapon</h1>
 
       <!-- Type and Stereotype -->
 
@@ -43,7 +43,7 @@
           <span class="label label-info"><a href='c0e47a10d7e94bde6198b9a6b050307c.html'><span class='node-icon staruml-icon icon-ERDDataModel'></span>Data Model1</a></span>
         
           <span>::</span>
-          <span class="label label-info"><a href='86793f032c0c01d2c17896d597fc2769.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Armamento</a></span>
+          <span class="label label-info"><a href='86793f032c0c01d2c17896d597fc2769.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Weapon</a></span>
         
       </section>
 
@@ -246,6 +246,36 @@
             <td><span class='label label-info'>false</span></td>
           </tr>
           
+          <tr>
+            <td><a href="1265846c59bd133af410bc50ee9d3c63.html">weapon_type_id</a></td>
+            <td>INTEGER(4)</td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>true</span></td>
+            <td>
+              
+                <a href='188f1fdac1817db79422b9568d863c91.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>WeaponType</a> ::
+              
+              <a href='520c5e4bae7d88d3b5ab41356e6e80cf.html'><span class='node-icon staruml-icon icon-ERDColumn'></span>id</a>
+            </td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+          </tr>
+          
+          <tr>
+            <td><a href="9e6d6d5df81b0054fce06906af3e0724.html">idWeaponLocation</a></td>
+            <td>INTEGER(15)</td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>true</span></td>
+            <td>
+              
+                <a href='60e56654a2499c47a350826280ebd16b.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>WeaponLocation</a> ::
+              
+              <a href='e6746541e90a91e1794a2ecc21fdbb2c.html'><span class='node-icon staruml-icon icon-ERDColumn'></span>id</a>
+            </td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+          </tr>
+          
         </table>                
       </section>
       
@@ -266,26 +296,34 @@
           
           
           <tr>
-            <td><a href='0a92bdec5af37862408d4f8c3895e212.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Agente seguridad</a></td>
+            <td><a href='0a92bdec5af37862408d4f8c3895e212.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>SecurityAgent</a></td>
             <td>0..*</td>
             <td></td>
-            <td><a href='ace8eef4e2479b6ffd9960cd52ba18b1.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Agente seguridad—Armamento)</a></td>
+            <td><a href='ace8eef4e2479b6ffd9960cd52ba18b1.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(SecurityAgent—Weapon)</a></td>
           </tr>
           
           
           <tr>
-            <td><a href='60e56654a2499c47a350826280ebd16b.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Ubicación armas</a></td>
+            <td><a href='60e56654a2499c47a350826280ebd16b.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>WeaponLocation</a></td>
             <td>1</td>
             <td></td>
-            <td><a href='8c3605047c8cdf4e2925d9af7b02c677.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Armamento—Ubicación armas)</a></td>
+            <td><a href='8c3605047c8cdf4e2925d9af7b02c677.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Weapon—WeaponLocation)</a></td>
           </tr>
           
           
           <tr>
-            <td><a href='188f1fdac1817db79422b9568d863c91.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Tipo armamento</a></td>
+            <td><a href='60e56654a2499c47a350826280ebd16b.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>WeaponLocation</a></td>
             <td>1</td>
             <td></td>
-            <td><a href='3b5ff683eff386e33cc0c292b07c28fb.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Tipo armamento—Armamento)</a></td>
+            <td><a href='6e30b4a3243da16d9fb4763bf578f2ad.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(WeaponLocation—Weapon)</a></td>
+          </tr>
+          
+          
+          <tr>
+            <td><a href='188f1fdac1817db79422b9568d863c91.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>WeaponType</a></td>
+            <td>1</td>
+            <td></td>
+            <td><a href='3b5ff683eff386e33cc0c292b07c28fb.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(WeaponType—Weapon)</a></td>
           </tr>
           
         </table>                
@@ -319,7 +357,7 @@
     
     <tr>
         <td>name</td>
-        <td>Armamento</td>
+        <td>Weapon</td>
     </tr>
     
     
@@ -352,11 +390,13 @@
     <h3>Relationships</h3>
     <ul class="nav nav-list">
         
-        <li><a href='ace8eef4e2479b6ffd9960cd52ba18b1.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Agente seguridad—Armamento)</a></li>
+        <li><a href='ace8eef4e2479b6ffd9960cd52ba18b1.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(SecurityAgent—Weapon)</a></li>
         
-        <li><a href='8c3605047c8cdf4e2925d9af7b02c677.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Armamento—Ubicación armas)</a></li>
+        <li><a href='8c3605047c8cdf4e2925d9af7b02c677.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Weapon—WeaponLocation)</a></li>
         
-        <li><a href='3b5ff683eff386e33cc0c292b07c28fb.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Tipo armamento—Armamento)</a></li>
+        <li><a href='6e30b4a3243da16d9fb4763bf578f2ad.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(WeaponLocation—Weapon)</a></li>
+        
+        <li><a href='3b5ff683eff386e33cc0c292b07c28fb.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(WeaponType—Weapon)</a></li>
         
     </ul>
 </section>
@@ -371,7 +411,7 @@
     <h3>Owned Elements</h3>
     <ul class="nav nav-list">
         
-        <li><a href='8c3605047c8cdf4e2925d9af7b02c677.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Armamento—Ubicación armas)</a></li>
+        <li><a href='8c3605047c8cdf4e2925d9af7b02c677.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Weapon—WeaponLocation)</a></li>
         
     </ul>
 </section>

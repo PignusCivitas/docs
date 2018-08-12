@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Usuario</title>
+    <title>User</title>
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic|Source+Code+Pro:300,400,700' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="../assets/css/bootstrap.css">
 <link rel="stylesheet" href="../assets/css/jquery.bonsai.css">
@@ -18,7 +18,7 @@
 
       <!-- Name Title -->
 
-      <h1>Usuario</h1>
+      <h1>User</h1>
 
       <!-- Type and Stereotype -->
 
@@ -43,7 +43,7 @@
           <span class="label label-info"><a href='c0e47a10d7e94bde6198b9a6b050307c.html'><span class='node-icon staruml-icon icon-ERDDataModel'></span>Data Model1</a></span>
         
           <span>::</span>
-          <span class="label label-info"><a href='6c14bf33d8d9d258db5e613709dad9ac.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Usuario</a></span>
+          <span class="label label-info"><a href='6c14bf33d8d9d258db5e613709dad9ac.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>User</a></span>
         
       </section>
 
@@ -259,6 +259,21 @@
             <td><span class='label label-info'>false</span></td>
           </tr>
           
+          <tr>
+            <td><a href="a4f3df4891eb197197fc8a0d0eafb7ab.html">person_id</a></td>
+            <td>INTEGER(15)</td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>true</span></td>
+            <td>
+              
+                <a href='7e1a7b5ae09447777fa6ee5a5835ec34.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Person</a> ::
+              
+              <a href='e5aa71d7b03811f69acd23d6aef07adc.html'><span class='node-icon staruml-icon icon-ERDColumn'></span>id</a>
+            </td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+          </tr>
+          
         </table>                
       </section>
       
@@ -279,18 +294,18 @@
           
           
           <tr>
-            <td><a href='7e1a7b5ae09447777fa6ee5a5835ec34.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Persona</a></td>
+            <td><a href='7e1a7b5ae09447777fa6ee5a5835ec34.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Person</a></td>
             <td>1</td>
             <td></td>
-            <td><a href='a9136751bfbc8f0752373d6fab3395c8.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Persona—Usuario)</a></td>
+            <td><a href='a9136751bfbc8f0752373d6fab3395c8.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Person—User)</a></td>
           </tr>
           
           
           <tr>
-            <td><a href='7c49787fa3bdf11885de53467dc87acb.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Alerta</a></td>
+            <td><a href='7c49787fa3bdf11885de53467dc87acb.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Alert</a></td>
             <td>0..*</td>
             <td></td>
-            <td><a href='346eaa0c1aa694d235c5f62b4ff5d54e.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Usuario—Alerta)</a></td>
+            <td><a href='346eaa0c1aa694d235c5f62b4ff5d54e.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(User—Alert)</a></td>
           </tr>
           
         </table>                
@@ -324,7 +339,7 @@
     
     <tr>
         <td>name</td>
-        <td>Usuario</td>
+        <td>User</td>
     </tr>
     
     
@@ -357,9 +372,9 @@
     <h3>Relationships</h3>
     <ul class="nav nav-list">
         
-        <li><a href='a9136751bfbc8f0752373d6fab3395c8.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Persona—Usuario)</a></li>
+        <li><a href='a9136751bfbc8f0752373d6fab3395c8.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Person—User)</a></li>
         
-        <li><a href='346eaa0c1aa694d235c5f62b4ff5d54e.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Usuario—Alerta)</a></li>
+        <li><a href='346eaa0c1aa694d235c5f62b4ff5d54e.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(User—Alert)</a></li>
         
     </ul>
 </section>
