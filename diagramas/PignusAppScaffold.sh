@@ -31,13 +31,13 @@ rails g scaffold Community name:string:uniq address:string phone:string admin_ad
 rails g scaffold Member address:string office_address:string notes:string community:references person:references
 rails g scaffold SecurityAgent security_agent_role:references division:string admission_date:date security_company:references security_agent:references weapon:references agent_type:references schedule:references person:references
 rails g scaffold Visitor checkin_date:date checkout_date:date notes:string destination:string vehicle:references community:references person:references
-rails g scaffold CheckVehicle id:string entry_date:string notes:string exit_date:date cost:double check_vehicle_status:references station:string community:references vehicle:references
+rails g scaffold CheckVehicle entry_date:string notes:string exit_date:date cost:float check_vehicle_status:references station:string community:references vehicle:references
 rails g scaffold AssetStock stock_name:string manager:string last_update:date asset_stock_status:references asset:references community:references
 rails g scaffold LostObject name:string date:date notes:string returned_to:string return_date:date phone:string community:references
 rails g scaffold Contract title:string date:date expiration:date type:string notes:string contractor:string hired:string contract_status:references community:references security_company:references
 rails g scaffold Endowment stock_name:string date:date accountable:string endowment_status_id:string contract:references
-rails g scaffold Event title:string notes:string date:date hour:time reported_by:string site:string facts:string event_status:references location:string end_date:date end_hour:time contact_name:string contact_phone:string community:references event_type:references secutity_agent:references
-rails g scaffold Staff name:string phone:string admission_date:date notes:string address:string staff:references staff_Job:references community:references
+rails g scaffold Event title:string notes:string date:date hour:time reported_by:string site:string facts:string event_status:references location:string end_date:date end_hour:time contact_name:string contact_phone:string community:references event_type:references security_agent:references
+rails g scaffold Staff name:string phone:string admission_date:date notes:string address:string staff:references staff_job:references community:references
 rails g scaffold CheckStaff entry_date:date exit_date:date notes:string staff:references
 rails g scaffold BlackList notes:string date:date black_list_status:references facts:string person:references
 rails g scaffold User username:string:uniq password:string last_login:date email:string:uniq person:references

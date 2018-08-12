@@ -31,15 +31,18 @@ foreach($Entidad in $Entidades)
 
     foreach($Columna in $Columnas)
     {
-        if($Columna.type -eq "VARCHAR")
+        if ($Columna.name -eq "id") {
+            continue
+        }
+        elseif($Columna.type -eq "VARCHAR")
         {
             $Atributo = "$($Columna.name):string"
         }
+        elseif ($Columna.type -eq "DOUBLE") {
+            $Atributo = "$($Columna.name):float"
+        }
         elseif ($Columna.name.Endswith('_id')) {
             $Atributo = "$(TruncateId($Columna.name)):references"
-        }
-        elseif ($Columna.name -eq "id") {
-            continue
         }
         else
         {
