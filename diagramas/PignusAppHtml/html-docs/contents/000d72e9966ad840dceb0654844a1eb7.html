@@ -273,15 +273,15 @@
           </tr>
           
           <tr>
-            <td><a href="821175b96f7fc0ea271090fa71811232.html">status</a></td>
-            <td>VARCHAR(20)</td>
+            <td><a href="821175b96f7fc0ea271090fa71811232.html">asset_status_id</a></td>
+            <td>INTEGER(20)</td>
             <td><span class='label label-info'>false</span></td>
-            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>true</span></td>
             <td>
               
               <span class='label label-info'>null</span>
             </td>
-            <td><span class='label label-info'>true</span></td>
+            <td><span class='label label-info'>false</span></td>
             <td><span class='label label-info'>false</span></td>
           </tr>
           
@@ -338,6 +338,14 @@
             <td>0..*</td>
             <td></td>
             <td><a href='aa2109911b60473f34d99d0512b71d46.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Asset—AssetStock)</a></td>
+          </tr>
+          
+          
+          <tr>
+            <td><a href='aaeec877a7dd809d3c813efcc3647c72.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>AssetStatus</a></td>
+            <td>1</td>
+            <td></td>
+            <td><a href='c3bcc01ac0cfc9d2d2e877468b4d5043.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(AssetStatus—Asset)</a></td>
           </tr>
           
         </table>                
@@ -409,6 +417,8 @@
         <li><a href='7138726c040976aaab2d837fc2c31314.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(AssetStock—Asset)</a></li>
         
         <li><a href='aa2109911b60473f34d99d0512b71d46.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Asset—AssetStock)</a></li>
+        
+        <li><a href='c3bcc01ac0cfc9d2d2e877468b4d5043.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(AssetStatus—Asset)</a></li>
         
     </ul>
 </section>

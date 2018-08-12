@@ -260,23 +260,10 @@
           </tr>
           
           <tr>
-            <td><a href="6618e61f288590651bb1605d762b225a.html">status</a></td>
-            <td>VARCHAR(20)</td>
+            <td><a href="6618e61f288590651bb1605d762b225a.html">check_vehicle_status_id</a></td>
+            <td>INTEGER(20)</td>
             <td><span class='label label-info'>false</span></td>
-            <td><span class='label label-info'>false</span></td>
-            <td>
-              
-              <span class='label label-info'>null</span>
-            </td>
             <td><span class='label label-info'>true</span></td>
-            <td><span class='label label-info'>false</span></td>
-          </tr>
-          
-          <tr>
-            <td><a href="5eb9c0397e019d2c7482be30d177d5a7.html">plate_number</a></td>
-            <td>VARCHAR(10)</td>
-            <td><span class='label label-info'>false</span></td>
-            <td><span class='label label-info'>false</span></td>
             <td>
               
               <span class='label label-info'>null</span>
@@ -308,6 +295,19 @@
                 <a href='2066f9bec22fb8c7c1d990249e00a564.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Community</a> ::
               
               <a href='c1f3944fc74ba6d21c7bd00509f074b4.html'><span class='node-icon staruml-icon icon-ERDColumn'></span>id</a>
+            </td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>false</span></td>
+          </tr>
+          
+          <tr>
+            <td><a href="f3005196e83984a74d2a452d3926c0b3.html">vehicle_id</a></td>
+            <td>INTEGER</td>
+            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>true</span></td>
+            <td>
+              
+              <span class='label label-info'>null</span>
             </td>
             <td><span class='label label-info'>false</span></td>
             <td><span class='label label-info'>false</span></td>
@@ -350,6 +350,14 @@
           
           <tr>
             <td><a href='789c532d1aed7725b39713f2ef835ac8.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Vehicle</a></td>
+            <td>1</td>
+            <td></td>
+            <td><a href='c24ae0df2baa422fc6072a2d97d7b1e7.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Vehicle—CheckVehicle)</a></td>
+          </tr>
+          
+          
+          <tr>
+            <td><a href='789c532d1aed7725b39713f2ef835ac8.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Vehicle</a></td>
             <td>0..*</td>
             <td></td>
             <td><a href='61064f6ec764f1be35ad167aac505b63.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(CheckVehicle—Vehicle)</a></td>
@@ -369,6 +377,14 @@
             <td>1</td>
             <td></td>
             <td><a href='49ce3d85a55de212a2ca4b3ded55c6c4.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Community—CheckVehicle)</a></td>
+          </tr>
+          
+          
+          <tr>
+            <td><a href='e9b5092f0def7a7a7f24d073e9f374fd.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>CheckVehicleStatus</a></td>
+            <td>1</td>
+            <td></td>
+            <td><a href='02fc93402f1480a09b3c9d7de0a185f7.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(CheckVehicleStatus—CheckVehicle)</a></td>
           </tr>
           
         </table>                
@@ -439,11 +455,15 @@
         
         <li><a href='c20cfe5e963bd8f13f60385774d3caf2.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Vehicle—CheckVehicle)</a></li>
         
+        <li><a href='c24ae0df2baa422fc6072a2d97d7b1e7.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Vehicle—CheckVehicle)</a></li>
+        
         <li><a href='61064f6ec764f1be35ad167aac505b63.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(CheckVehicle—Vehicle)</a></li>
         
         <li><a href='1a1b95fdc99356de55b481698fce0112.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(CheckVehicle—Vehicle)</a></li>
         
         <li><a href='49ce3d85a55de212a2ca4b3ded55c6c4.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Community—CheckVehicle)</a></li>
+        
+        <li><a href='02fc93402f1480a09b3c9d7de0a185f7.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(CheckVehicleStatus—CheckVehicle)</a></li>
         
     </ul>
 </section>

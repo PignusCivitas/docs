@@ -208,10 +208,10 @@
           </tr>
           
           <tr>
-            <td><a href="027111cd2745bfc2c282b270bb7b06e6.html">role</a></td>
-            <td>VARCHAR(20)</td>
+            <td><a href="027111cd2745bfc2c282b270bb7b06e6.html">security_agent_role_id</a></td>
+            <td>INTEGER(20)</td>
             <td><span class='label label-info'>false</span></td>
-            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>true</span></td>
             <td>
               
               <span class='label label-info'>null</span>
@@ -412,6 +412,14 @@
           
           
           <tr>
+            <td><a href='7013ecfc68c238008b10e86d5be85bbf.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>AgentSchedule</a></td>
+            <td>0..*</td>
+            <td></td>
+            <td><a href='ab73f434c06337ba4b53a43a0e8711c1.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(SecurityAgent—AgentSchedule)</a></td>
+          </tr>
+          
+          
+          <tr>
             <td><a href='6590d91593a46f34a7ab4eb8ac9eb299.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>SecurityCompany</a></td>
             <td>1</td>
             <td></td>
@@ -432,6 +440,14 @@
             <td>1</td>
             <td></td>
             <td><a href='3da38dc281fc5044de66bfab031561c0.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(AgentType—SecurityAgent)</a></td>
+          </tr>
+          
+          
+          <tr>
+            <td><a href='94f88a8cf06d16ea354babe3fa19aca4.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>SecurityAgentRole</a></td>
+            <td>1</td>
+            <td></td>
+            <td><a href='3c6426117e9bcd22abe0d43a8c2fe5fd.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(SecurityAgentRole—SecurityAgent)</a></td>
           </tr>
           
         </table>                
@@ -512,11 +528,15 @@
         
         <li><a href='647b8b3982b7d7e01cb63811ce255c70.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(SecurityAgent—Event)</a></li>
         
+        <li><a href='ab73f434c06337ba4b53a43a0e8711c1.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(SecurityAgent—AgentSchedule)</a></li>
+        
         <li><a href='fef19c3bc498e8a621831df82f5bf624.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(SecurityCompany—SecurityAgent)</a></li>
         
         <li><a href='ca842f4e027cec37b27dd9d4d0e5cbae.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Schedule—SecurityAgent)</a></li>
         
         <li><a href='3da38dc281fc5044de66bfab031561c0.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(AgentType—SecurityAgent)</a></li>
+        
+        <li><a href='3c6426117e9bcd22abe0d43a8c2fe5fd.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(SecurityAgentRole—SecurityAgent)</a></li>
         
     </ul>
 </section>
@@ -542,6 +562,8 @@
         <li><a href='bed971850313341ddba2cf5f9f03a7ce.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(SecurityAgent—Schedule)</a></li>
         
         <li><a href='647b8b3982b7d7e01cb63811ce255c70.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(SecurityAgent—Event)</a></li>
+        
+        <li><a href='ab73f434c06337ba4b53a43a0e8711c1.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(SecurityAgent—AgentSchedule)</a></li>
         
     </ul>
 </section>

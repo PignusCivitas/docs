@@ -299,10 +299,10 @@
           </tr>
           
           <tr>
-            <td><a href="a5409feea8c8bbf65e4a259229f581c2.html">status</a></td>
-            <td>VARCHAR(20)</td>
+            <td><a href="a5409feea8c8bbf65e4a259229f581c2.html">contract_status_id</a></td>
+            <td>INTEGER(20)</td>
             <td><span class='label label-info'>false</span></td>
-            <td><span class='label label-info'>false</span></td>
+            <td><span class='label label-info'>true</span></td>
             <td>
               
               <span class='label label-info'>null</span>
@@ -393,10 +393,26 @@
           
           
           <tr>
+            <td><a href='7013ecfc68c238008b10e86d5be85bbf.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>AgentSchedule</a></td>
+            <td>0..*</td>
+            <td></td>
+            <td><a href='0e719b0477429efd37bfea72b9087064.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Contract—AgentSchedule)</a></td>
+          </tr>
+          
+          
+          <tr>
             <td><a href='2066f9bec22fb8c7c1d990249e00a564.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>Community</a></td>
             <td>1</td>
             <td></td>
             <td><a href='43f8bcf01e954e767bdfcf006b0f88b2.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Community—Contract)</a></td>
+          </tr>
+          
+          
+          <tr>
+            <td><a href='c2e944f6e1a825c9b28749a76917218e.html'><span class='node-icon staruml-icon icon-ERDEntity'></span>ContractStatus</a></td>
+            <td>1</td>
+            <td></td>
+            <td><a href='e450e5757037ed8f88351fcb91682ea2.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(ContractStatus—Contract)</a></td>
           </tr>
           
         </table>                
@@ -471,7 +487,11 @@
         
         <li><a href='afbc58ddf0a29de33d562865752cf704.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Contract—Endowment)</a></li>
         
+        <li><a href='0e719b0477429efd37bfea72b9087064.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Contract—AgentSchedule)</a></li>
+        
         <li><a href='43f8bcf01e954e767bdfcf006b0f88b2.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Community—Contract)</a></li>
+        
+        <li><a href='e450e5757037ed8f88351fcb91682ea2.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(ContractStatus—Contract)</a></li>
         
     </ul>
 </section>
@@ -489,6 +509,8 @@
         <li><a href='3241e0ae7abe9c15cfd46c1c3ace3536.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Contract—Community)</a></li>
         
         <li><a href='afbc58ddf0a29de33d562865752cf704.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Contract—Endowment)</a></li>
+        
+        <li><a href='0e719b0477429efd37bfea72b9087064.html'><span class='node-icon staruml-icon icon-ERDRelationship'></span>(Contract—AgentSchedule)</a></li>
         
     </ul>
 </section>
